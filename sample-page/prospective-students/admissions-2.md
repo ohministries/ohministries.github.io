@@ -30,11 +30,17 @@ standard 4.0 scale. We also require a minimum composite score of 18 on the Enhan
 American College Test (ACT) or a minimum of 400 on each individual score on the Scholastic 
 Aptitude Test (SAT).
 
-All students are expected to uphold the policies and standards of Ouachita Hills College as a Seventh-day Adventist institution. OHC reserves the right to deny admission based on its inability to meet the student’s educational needs and objectives.
+All students are expected to uphold the policies and standards of Ouachita Hills College 
+as a Seventh-day Adventist institution. OHC reserves the right to deny admission based on 
+its inability to meet the student’s educational needs and objectives.
 
 **Admission of Transfer Students**
   
-Students transferring from other recognized colleges or universities must have a combined cumulative grade point average of 2.0 or better. Students transferring to OHC with fewer than 24 semester credits (or 36 quarter credits) will be considered for admission on the basis of a combination of scores from their secondary school records and previous college work.
+Students transferring from other recognized colleges or universities must have a combined 
+cumulative grade point average of 2.0 or better. Students transferring to OHC with fewer 
+than 24 semester credits (or 36 quarter credits) will be considered for admission on the 
+basis of a combination of scores from their secondary school records and previous college 
+work.
 
 **How to Apply**
   
@@ -43,21 +49,24 @@ Students transferring from other recognized colleges or universities must have a
 There is a $25.00 processing fees for all paper applications, which must be remitted along 
 with the completed application.
 
-2. We require three references in addition to you application. These should come from your pastor, one of your teachers, and one from an employer. These should be submitted directly to Ouachita Hills College by the person writing the reference. They may complete our online reference form, or you may download and have them complete our [paper reference form](http://localhost:8080/wordpress/wp-content/uploads/2016/02/OHC-Student-References-Form.pdf), which they must submit directly by mail.
+2. We require three references in addition to you application. These should come from your
+ pastor, one of your teachers, and one from an employer. These should be submitted 
+ directly to Ouachita Hills College by the person writing the reference. They may complete
+  our online reference form, or you may download and have them complete our
+   [paper reference form](/wp-content/uploads/2016/02/OHC-Student-References-Form.pdf)
+   , which they must submit directly by mail.
 
-3. Have all official transcripts from all schools (secondary, college or university) sent directly from each school to Ouachita Hills College. You may use our [transcript request form](http://localhost:8080/wordpress/wp-content/uploads/2016/02/OHC-Transcript-Request-Form.pdf) if needed.
+3. Have all official transcripts from all schools (secondary, college or university) sent 
+directly from each school to Ouachita Hills College. You may use our
+[transcript request form](/wp-content/uploads/2016/02/OHC-Transcript-Request-Form.pdf)
+ if needed.
 
 Any documents submitted by mail should be sent to:
 
-Admissions
-  
-Ouachita Hills College
-  
-P.O. Box 170
-  
-Amity, Arkansas
-  
-71921
+Admissions  
+Ouachita Hills College  
+P.O. Box 170  
+Amity, Arkansas 71921
 
 **Paper Application Package**
   

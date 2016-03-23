@@ -2,4 +2,21 @@
 
 Ouachita Hills Ministries Jekyll site
 
-[Edit in Prose.io](http://prose.io/#OuachitaHillsMinistries/ouachitahillsministries.github.io/)
+## First-time install
+
+```
+git clone https://github.com/ohministries/ohministries.github.io.git
+cd ohministries.github.io
+sudo gem install jekyll
+jekyll serve --watch
+```
+
+Open `http://localhost:4000/` in a browser.
+
+## Launching website any other time
+
+1. `cd` into `ohministries.github.io` folder
+2. Run `jekyll serve --watch`.
+3. Open `http://localhost:4000/` in a browser.
+
+[Edit in Prose.io](http://prose.io/#OuachitaHillsMinistries/ouachitahillsministries.github.io/) [If you know what you're doing.]

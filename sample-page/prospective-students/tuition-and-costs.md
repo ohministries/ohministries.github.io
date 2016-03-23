@@ -6,13 +6,13 @@ author: erinohmin
 layout: page
 guid: http://localhost:8080/wordpress/?page_id=15
 ---
-**Tuition & Fees**
+### Tuition & Fees
 
 Per Semester Charges:
   
-Room Charge* $738
+Room Charge\* $738
   
-Boarding Charge* $1,400
+Boarding Charge\* $1,400
   
 Tuition (12-17 credits) $3,366
   
@@ -20,9 +20,10 @@ Tuition (12-17 credits) $3,366
   
 Correspondence Course $155 per credit hour
 
-*Students are billed for room and board on a per-semester basis. There is a non-refundable room deposit of $50, payable each summer for the following school year.
+\*Students are billed for room and board on a per-semester basis. There is a non-refundable 
+room deposit of $50, payable each summer for the following school year.
 
-**Additional Costs:**
+### Additional Costs
 
 Textbooks
   
@@ -34,11 +35,14 @@ Detergent and other laundering supplies
   
 Additional furniture
   
-Gasoline for personal vehicle
+Gas for personal vehicle
 
-_Ouachita Hills College is a nonprofit institution sponsored and operated by Ouachita Ministries, Inc. As a church-related institution, OHC supports its operations strictly through tuition income, contributions, and scholarships. OHC does not participate in any state or federal educational assistance programs or veterans assistance programs._
+_Ouachita Hills College is a nonprofit institution sponsored and operated by Ouachita 
+Ministries, Inc. As a church-related institution, OHC supports its operations strictly 
+through tuition income, contributions, and scholarships. OHC does not participate in any 
+state or federal educational assistance programs or veterans assistance programs._
 
-**Scholarships**
+### Scholarships
 
 _Canvassing Scholarship Program_
   
@@ -64,7 +68,7 @@ _Other Matching Scholarships_
   
 For non-literature evangelism ministries, OHC will match 25% of approved program scholarships (maximum of $500 in matching funds). This will be applied over two semesters and on the conditions that the student 1) releases the earnings being matched to OHC and 2) takes part in the OHC canvassing program during the school year.
 
-**Student Financial Responsibility**
+### Student Financial Responsibility
 
 OHC will assist students in their financial planning. However, responsibility for payment of college expenses rest with the student, regardless of any assistance which may be expected or reviewed from parents, OHC, or other sources.
 

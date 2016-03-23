@@ -36,89 +36,37 @@ featured:
 order:
   - 
 ---
-**Payment Schedule for Tuition, Room and Board**
 
-<div class="su-table">
-  <table style="height: 152px;" width="536">
-    <tr>
-      <td>
-        First year of attendance
-      </td>
-      
-      <td>
-        $895/month in ten installments
-      </td>
-    </tr>
-    
-    <tr>
-      <td>
-        Second year of attendance
-      </td>
-      
-      <td>
-        $885/month in ten installments
-      </td>
-    </tr>
-    
-    <tr>
-      <td>
-        Third year of attendance
-      </td>
-      
-      <td>
-        $875/month in ten installments
-      </td>
-    </tr>
-    
-    <tr>
-      <td>
-        Fourth year of attendance
-      </td>
-      
-      <td>
-        $865/month in ten installments
-      </td>
-    </tr>
-  </table>
-</div>
+## Payment Schedule for Tuition, Room and Board
 
-**Worthy Student Scholarships**
+Year of attendance        | Fee
+--------------------------|--------------------------------
+First year of attendance  | $895/month in ten installments
+Second year of attendance | $885/month in ten installments
+Third year of attendance  | $875/month in ten installments
+Fourth year of attendance | $865/month in ten installments 
 
-Scholarships are awarded to students based on financial need and availability of funds from our donors. Eligible students should also demonstrate academic potential and good conduct. You may download and complete our [Worthy Student Scholarship form](http://localhost:8080/wordpress/wp-content/uploads/2016/02/Worthy_Student_Application.pdf).
+## Worthy Student Scholarships
 
-**Dorm room reservation**
+Scholarships are awarded to students based on financial need and availability of funds 
+from our donors. Eligible students should also demonstrate academic potential and good 
+conduct. You may download and complete our 
+[Worthy Student Scholarship form](/wp-content/uploads/2016/02/Worthy_Student_Application.pdf).
 
-A non-refundable room reservation fee of $200 is due within two weeks of receiving notice of acceptance as a student. This fee is applied at registration to the registration fee.
+## Dorm room reservation
 
-**Technology Fees**
+A non-refundable room reservation fee of $200 is due within two weeks of receiving notice 
+of acceptance as a student. This fee is applied at registration to the registration fee.
+
+## Technology Fees
+  
+  Year of attendance			 | Fee
+  -------------------------------|------------------------------------
+  Freshmen 						 | $15/month in ten installments
+Sophomores, Juniors and Seniors  | $45/month in ten installments 
   
 
-
-<div class="su-table">
-  <table style="height: 106px;" width="506">
-    <tr>
-      <td>
-        Freshmen
-      </td>
-      
-      <td>
-        $15/month in ten installments
-      </td>
-    </tr>
-    
-    <tr>
-      <td>
-        Sophmores, Juniors and Seniors
-      </td>
-      
-      <td>
-        $45/month in ten installments
-      </td>
-    </tr>
-  </table>
-</div>
-
-**Additional charges due at registration:**
+## Additional charges due at registration:
 
 Registration fee  **$ 395**
   
@@ -128,7 +76,7 @@ Textbooks  **$ 200–250**
   
 Yearbook  **$ 25**
 
-**Non-covered and optional charges***
+## Non-covered and optional charges\*
 
 Transportation to Hot Springs  **$ 28**
   
@@ -138,7 +86,7 @@ Transportation to Arkadelphia  **$ 28**
   
 Testing (PSAT, SAT or ACT) **$ 15-35**
   
-Graduation fees**  **$ 85**
+Graduation fees\*\*  **$ 85**
   
 Music lessons, per semester  **$ 215**
   
@@ -146,6 +94,8 @@ Orchestra fee per semester  **$ 50**
   
 Touring Choir Performance Outfit Rental  **$ 30-40**
 
-_*__These charges are based on one individual. Discounts apply when more than one student is traveling. Check with the business office for estimated charges._
+\*These charges are based on one individual. Discounts apply when more than one student 
+is traveling. Check with the business office for estimated charges.
 
-_** Does not include fees for flowers, graduation announcements, class gifts or senior trip. These will vary depending on choices and quantities._
+\*\*Does not include fees for flowers, graduation announcements, class gifts or senior 
+trip. These will vary depending on choices and quantities.

@@ -1,42 +1,51 @@
-{% comment %} https://thinkshout.com/blog/2014/12/creating-dynamic-menus-in-jekyll/ {% endcomment %}
+{% comment %} Init call with current_depth, max_depth. Both are zero-based. {% endcomment %}
 
-{% assign url_parts = page.url | split: '/' %}
-{% assign url_parts_size = url_parts | size %}
-{% assign rm = url_parts | last %}
-{% assign base_url = page.url %}
-{% if rm.size > 0 %}
-    {% assign base_url = page.url | replace: rm %}
+{% assign current_lvl_url_length = include.current_depth | plus: 2 %}
+{% assign next_lvl_url_length = current_lvl_url_length | plus: 1 %}
+{% assign max_url_length = include.max_depth | plus: 2 %}
+{% assign base_url = include.base_url %}
+
+{% if include.base_url == nil %}
+    {% assign base_url = '/' %}
+    {{ base_url }}
 {% endif %}
 
-<ul>
-    {% for node in site.pages %}
-        {% assign node_url_parts = node.url | split: '/' %}
-        {% assign filename = node_url_parts | last %}
-        {% if node_url_parts.size == 2 and filename != 'index.html' and filename contains 'html' %}
+{% for node in site.pages %}
+    {% assign node_url_parts = node.url | split: '/' %}
+    {% assign filename = node_url_parts | last %}
 
-            {% assign node_base_url = node.url | replace: '.html' | append: '/' %}
-            {% assign is_submenu = false %}
-            {% for subnode in site.pages %}
-                {% assign subnode_url_parts = subnode.url | split: '/' %}
-                {% if subnode_url_parts.size == 3 and subnode.url contains node_base_url %}
+    {% if node_url_parts.size == current_lvl_url_length and node.url contains base_url and filename != 'index.html' and filename contains 'html' %}
+        <li class="page-link">
+            <a href='{{node.url}}'>{{node.title}}</a>
+
+            {% if next_lvl_url_length <= max_url_length %}
+                {% assign node_base_url = node.url | replace: '.html' | append: '/' %}
+                {% assign is_submenu = false %}
+                {% for subnode in site.pages %}
+                    {% assign subnode_url_parts = subnode.url | split: '/' %}
+                    {% if subnode_url_parts.size == next_lvl_url_length and subnode.url contains node_base_url %}
                     {% assign is_submenu = true %}
                     {% break %}
-                {% endif %}
-            {% endfor %}
+                    {% endif %}
+                {% endfor %}
 
-            <li class="page-link">
-                <a href='{{node.url}}'>{{node.title}}</a>
                 {% if is_submenu %}
                     <ul>
-                        {% for subnode in site.pages %}
-                            {% assign subnode_url_parts = subnode.url | split: '/' %}
-                            {% if subnode_url_parts.size == 3 and subnode.url contains node_base_url %}
-                                <li><a href="{{subnode.url}}">{{subnode.title}}</a></li>
-                            {% endif %}
-                        {% endfor %}
+                        {% assign next_depth = include.current_depth | plus: 1 %}
+                        {% include nav.html current_depth=next_depth max_depth=include.max_depth base_url=node_base_url old_base_url=base_url %}
+
+                        {% comment %} Reverse recursion state: {% endcomment %}
+
+                        {% assign current_lvl_url_length = current_lvl_url_length | minus: 1 %}
+                        {% assign next_lvl_url_length = next_lvl_url_length | minus: 1 %}
+                        {% assign base_url = include.old_base_url %}
+                        {% if include.old_base_url == nil %}
+                            {% assign base_url = '/' %}
+                        {% endif %}
                     </ul>
                 {% endif %}
-            </li>
-        {% endif %}
-    {% endfor %}
-</ul>
+            {% endif %}
+
+        </li>
+    {% endif %}
+{% endfor %}

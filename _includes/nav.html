@@ -7,9 +7,9 @@
 
 {% if include.base_url == nil %}
     {% assign base_url = '/' %}
-    {{ base_url }}
 {% endif %}
 
+<ul>
 {% for node in site.pages %}
     {% assign node_url_parts = node.url | split: '/' %}
     {% assign filename = node_url_parts | last %}
@@ -20,32 +20,21 @@
 
             {% if next_lvl_url_length <= max_url_length %}
                 {% assign node_base_url = node.url | replace: '.html' | append: '/' %}
-                {% assign is_submenu = false %}
-                {% for subnode in site.pages %}
-                    {% assign subnode_url_parts = subnode.url | split: '/' %}
-                    {% if subnode_url_parts.size == next_lvl_url_length and subnode.url contains node_base_url %}
-                    {% assign is_submenu = true %}
-                    {% break %}
-                    {% endif %}
-                {% endfor %}
+                {% assign next_depth = include.current_depth | plus: 1 %}
 
-                {% if is_submenu %}
-                    <ul>
-                        {% assign next_depth = include.current_depth | plus: 1 %}
-                        {% include nav.html current_depth=next_depth max_depth=include.max_depth base_url=node_base_url old_base_url=base_url %}
+                {% include nav.html current_depth=next_depth max_depth=include.max_depth base_url=node_base_url old_base_url=base_url %}
 
-                        {% comment %} Reverse recursion state: {% endcomment %}
+                {% comment %} Reverse recursion state: {% endcomment %}
 
-                        {% assign current_lvl_url_length = current_lvl_url_length | minus: 1 %}
-                        {% assign next_lvl_url_length = next_lvl_url_length | minus: 1 %}
-                        {% assign base_url = include.old_base_url %}
-                        {% if include.old_base_url == nil %}
-                            {% assign base_url = '/' %}
-                        {% endif %}
-                    </ul>
+                {% assign current_lvl_url_length = current_lvl_url_length | minus: 1 %}
+                {% assign next_lvl_url_length = next_lvl_url_length | minus: 1 %}
+                {% assign base_url = include.old_base_url %}
+                {% if include.old_base_url == nil %}
+                    {% assign base_url = '/' %}
                 {% endif %}
             {% endif %}
 
         </li>
     {% endif %}
 {% endfor %}
+</ul>

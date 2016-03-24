@@ -11,10 +11,26 @@
 <ul>
     {% for node in site.pages %}
         {% assign node_url_parts = node.url | split: '/' %}
-        {% assign node_url_parts_size = node_url_parts | size %}
         {% assign filename = node_url_parts | last %}
-        {% if node_url_parts_size == 2 and filename != 'index.html' and filename contains 'html' %}
-            <li class="page-link"><a href='{{node.url}}'>{{node.title}}</a></li>
+        {% if node_url_parts.size == 2 and filename != 'index.html' and filename contains 'html' %}
+            {% assign node_base_url = node.url | replace: '.html' | append: '/' %}
+            {% assign submenu = '' %}
+            {% for subnode in site.pages %}
+                {% assign subnode_url_parts = subnode.url | split: '/' %}
+                {% if subnode_url_parts.size == 3 and subnode.url contains node_base_url %}
+                    {% assign submenu = submenu | append: '<li><a href="' %}
+                    {% assign submenu = submenu | append: subnode.url %}
+                    {% assign submenu = submenu | append: '">' %}
+                    {% assign submenu = submenu | append: subnode.title %}
+                    {% assign submenu = submenu | append: '</a></li>' %}
+                {% endif %}
+            {% endfor %}
+            <li class="page-link">
+                <a href='{{node.url}}'>{{node.title}}</a>
+                {% if submenu.size > 0 %}
+                    <ul>{{ submenu }}</ul>
+                {% endif %}
+            </li>
         {% endif %}
     {% endfor %}
 </ul>

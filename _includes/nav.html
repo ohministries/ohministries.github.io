@@ -1,13 +1,25 @@
-{% comment %} Init call with current_depth, max_depth. Both are zero-based. {% endcomment %}
+{% comment %} Init call with base_url, max_depth (zero based). {% endcomment %}
 
-{% assign current_lvl_url_length = include.current_depth | plus: 2 %}
+{% assign base_url = include.lvl_base_url %}
+
+{% if base_url == nil %}
+  {% assign base_url = include.base_url %}
+  {% assign lvl_base_url = include.base_url %}
+{% endif %}
+{% if base_url == nil %}
+  {% assign base_url = '/' %}
+  {% assign lvl_base_url = '/' %}
+{% endif %}
+
+{% if lvl_base_url == '/' %}
+  {% assign current_lvl_url_length = 2 %}
+{% else %}
+  {% assign current_lvl_url_parts = lvl_base_url | split: '/' %}
+  {% assign current_lvl_url_length = current_lvl_url_parts.size | plus: 1 %}
+{% endif %}
+
 {% assign next_lvl_url_length = current_lvl_url_length | plus: 1 %}
 {% assign max_url_length = include.max_depth | plus: 2 %}
-{% assign base_url = include.base_url %}
-
-{% if include.base_url == nil %}
-{% assign base_url = '/' %}
-{% endif %}
 
 {% capture links %}
   {% for node in site.pages %}
@@ -18,14 +30,15 @@
   <li class="page-link">
     <a href='{{node.url}}'>{{node.title}}</a>
     {% if next_lvl_url_length <= max_url_length %}
-      {% assign node_base_url = node.url | replace: '.html' | append: '/' %}
-      {% assign next_depth = include.current_depth | plus: 1 %}
-      {% include nav.html current_depth=next_depth max_depth=include.max_depth base_url=node_base_url old_base_url=base_url %}
+      {% assign lvl_base_url = node.url | replace: '.html' | append: '/' %}
+
+      {% include nav.html max_depth=include.max_depth base_url=base_url lvl_base_url=lvl_base_url %}
+
       {% comment %} Reverse recursion state: {% endcomment %}
       {% assign current_lvl_url_length = current_lvl_url_length | minus: 1 %}
       {% assign next_lvl_url_length = next_lvl_url_length | minus: 1 %}
-      {% assign base_url = include.old_base_url %}
-      {% if include.old_base_url == nil %}
+      {% assign base_url = include.base_url %}
+      {% if include.base_url == nil %}
         {% assign base_url = '/' %}
       {% endif %}
     {% endif %}

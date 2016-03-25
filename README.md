@@ -18,5 +18,3 @@ Open `http://localhost:4000/` in a browser.
 1. `cd` into `ohministries.github.io` folder
 2. Run `jekyll serve --watch`.
 3. Open `http://localhost:4000/` in a browser.
-
-[Edit in Prose.io](http://prose.io/#OuachitaHillsMinistries/ouachitahillsministries.github.io/) [If you know what you're doing.]

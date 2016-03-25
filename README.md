@@ -1,4 +1,4 @@
-# ouachitahillsministries.github.io
+# ohministries.github.io
 
 Ouachita Hills Ministries Jekyll site
 

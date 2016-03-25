@@ -8,10 +8,12 @@ layout: home
     <h1 class="page-heading">Ouachita Hills Ministries</h1>
   </div>
 
-  <ul class="news">
-    {% for alert in site.news %}
+  <div class="news">
+    <ul>
+      {% for alert in site.news %}
       <li>{{ alert.content }}</li>
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </ul>
+  </div>
 
 </div>

@@ -22,28 +22,35 @@
     {% assign filename = node.url | split: '/' | last %}
     {% if node_url_length == current_lvl_url_length and node.url contains lvl_base_url and filename != 'index.html' and filename contains 'html' %}
       <li class="page-link">
+        {% capture subnav %}
+          {% if include.max_depth > current_lvl_url_length | plus: 1 %}
+            {% assign lvl_base_url = node.url | replace: '.html' | append: '/' %}
+
+            {% comment %} Include can access parent state; hence no variables passed explicitly: {% endcomment %}
+            {% include nav.html %}
+
+            {% comment %} Reverse state changes made by child: {% endcomment %}
+            {% assign current_lvl_url_length = current_lvl_url_length | minus: 1 %}
+            {% assign directory_to_remove = lvl_base_url | split: '/' | last | append: '/' %}
+            {% assign lvl_base_url = lvl_base_url | replace: directory_to_remove %}
+          {% endif %}
+        {% endcapture %}
+        {% assign subnav = subnav | strip %}
+
         {% assign element = 'a' %}
-        {% if include.disable_top_level_links and start_lvl == current_lvl_url_length %}
+        {% if subnav.size > 0 and include.disable_top_level_links and start_lvl == current_lvl_url_length %}
           {% assign element = 'span' %}
           {% assign extra_atts = 'tabindex="-1"' %}
         {% endif %}
+
         <{{ element }} {{ extra_atts }} href='{{ node.url }}'>{{ node.title }}</{{ element }}>
-        {% if include.max_depth > current_lvl_url_length | plus: 1 %}
-          {% assign lvl_base_url = node.url | replace: '.html' | append: '/' %}
-
-          {% comment %} Include can access parent state; hence no variables passed explicitly: {% endcomment %}
-          {% include nav.html %}
-
-          {% comment %} Reverse state changes made by child: {% endcomment %}
-          {% assign current_lvl_url_length = current_lvl_url_length | minus: 1 %}
-          {% assign directory_to_remove = lvl_base_url | split: '/' | last | append: '/' %}
-          {% assign lvl_base_url = lvl_base_url | replace: directory_to_remove %}
-        {% endif %}
+        {{ subnav }}
       </li>
     {% endif %}
   {% endfor %}
 {% endcapture %}
 
+{% assign links = links | strip %}
 {% if links.size > 0 %}
 <ul>{{ links | strip }}</ul>
 {% endif %}

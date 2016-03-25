@@ -1,4 +1,4 @@
-{% comment %} Init call with base_url (optional) and max_depth. {% endcomment %}
+{% comment %} Init call with base_url (optional), max_depth, and disable_top_level_links (optional). {% endcomment %}
 
 {% if lvl_base_url == nil %}
   {% assign lvl_base_url = '/' %}
@@ -12,13 +12,22 @@
   {% assign current_lvl_url_length = 1 %}
 {% endif %}
 
+{% if include.disable_top_level_links and start_lvl == nil %}
+  {% assign start_lvl = current_lvl_url_length %}
+{% endif %}
+
 {% capture links %}
   {% for node in site.pages %}
     {% assign node_url_length = node.url | split: '/' | size | minus: 1 %}
     {% assign filename = node.url | split: '/' | last %}
     {% if node_url_length == current_lvl_url_length and node.url contains lvl_base_url and filename != 'index.html' and filename contains 'html' %}
       <li class="page-link">
-        <a href='{{ node.url }}'>{{ node.title }}</a>
+        {% assign element = 'a' %}
+        {% if include.disable_top_level_links and start_lvl == current_lvl_url_length %}
+          {% assign element = 'span' %}
+          {% assign extra_atts = 'tabindex="-1"' %}
+        {% endif %}
+        <{{ element }} {{ extra_atts }} href='{{ node.url }}'>{{ node.title }}</{{ element }}>
         {% if include.max_depth > current_lvl_url_length | plus: 1 %}
           {% assign lvl_base_url = node.url | replace: '.html' | append: '/' %}
 
@@ -35,8 +44,6 @@
   {% endfor %}
 {% endcapture %}
 
-{% assign links = links | strip %}
-
 {% if links.size > 0 %}
-<ul>{{ links }}</ul>
+<ul>{{ links | strip }}</ul>
 {% endif %}

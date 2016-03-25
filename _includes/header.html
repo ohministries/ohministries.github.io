@@ -21,7 +21,7 @@
       {% elsif page.url contains '/college' %}
         {% include nav.html base_url='/college/' max_depth=3 %}
       {% else %}
-        {% include nav.html max_depth=2 %}
+        {% include nav.html max_depth=2 disable_top_level_links=true %}
       {% endif %}
 
     </nav>

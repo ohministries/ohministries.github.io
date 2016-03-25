@@ -1,4 +1,4 @@
-html, body, .home {
+html {
   height:100%;
 }
 
@@ -6,4 +6,19 @@ html, body, .home {
   background-image: url('/images/A.Background.jpg');
   background-size:cover;
   background-position:50% 50%;
+  display:flex;
+  min-height:100%;
+}
+
+.wrapper {
+  display:table;
+  margin:auto;
+  max-width:100%;
+}
+
+.start, .news {
+  padding:$spacing-unit;
+  margin:0 0 $spacing-unit 0;
+
+  @extend %glazed-box;
 }

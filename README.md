@@ -1,4 +1,4 @@
-# ouachitahillsministries.github.io
+# ohministries.github.io
 
 Ouachita Hills Ministries Jekyll site
 
@@ -16,5 +16,5 @@ Open `http://localhost:4000/` in a browser.
 ## Launching website any other time
 
 1. `cd` into `ohministries.github.io` folder
-2. Run `jekyll serve --watch`.
+2. Run `jekyll serve --watch`. (Long build times getting you down? Try adding the `--incremental` option.)
 3. Open `http://localhost:4000/` in a browser.

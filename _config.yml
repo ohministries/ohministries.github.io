@@ -1,3 +1,5 @@
 url: http://127.0.0.1:8080/wordpress/
 name: Ouachita Hills Ministries
 description: Just another WordPress site
+collections:
+- news

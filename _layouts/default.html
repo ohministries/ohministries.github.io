@@ -5,7 +5,7 @@
 
   <body>
 
-    {% include header.html %}
+    {% capture header %}{% include header.html %}{% endcapture %}{{ header | strip_newlines }}
 
     <div class="page-content">
       <div class="wrapper">

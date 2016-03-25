@@ -17,11 +17,11 @@
       </a>
 
       {% if page.url contains '/academy' %}
-        {% include nav.html base_url='/academy/' max_depth=2 %}
+        {% include nav.html base_url='/academy/' max_depth=3 %}
       {% elsif page.url contains '/college' %}
-        {% include nav.html base_url='/college/' max_depth=2 %}
+        {% include nav.html base_url='/college/' max_depth=3 %}
       {% else %}
-        {% include nav.html max_depth=1 %}
+        {% include nav.html max_depth=2 %}
       {% endif %}
 
     </nav>

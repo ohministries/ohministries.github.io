@@ -4,7 +4,7 @@
 
 jQuery(document).ready(function($) {
 
-    $('.news').unslider({
+    $('.ticker').unslider({
         nav: false,
         autoplay: true,
         delay: 7000,

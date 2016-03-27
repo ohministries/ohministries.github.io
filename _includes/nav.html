@@ -38,10 +38,12 @@
 
       {% assign li_classes = 'page-link' %}
       {% assign element = 'a' %}
-      {% if subnav.size > 0 and include.disable_top_level_links and start_lvl == current_lvl_url_length %}
+      {% if subnav.size > 0 %}
         {% assign li_classes = 'page-link has-children' %}
-        {% assign element = 'span' %}
-        {% assign extra_atts = 'tabindex="-1"' %}
+        {% if include.disable_top_level_links and start_lvl == current_lvl_url_length %}
+          {% assign element = 'span' %}
+          {% assign extra_atts = 'tabindex="-1"' %}
+        {% endif %}
       {% endif %}
 
       <li class="{{ li_classes }}">

@@ -18,3 +18,8 @@ Open `http://localhost:4000/` in a browser.
 1. `cd` into `ohministries.github.io` folder
 2. Run `jekyll serve --watch`. (Long build times getting you down? Try adding the `--incremental` option.)
 3. Open `http://localhost:4000/` in a browser.
+
+## Dependencies
+
+- Git
+- Jekyll

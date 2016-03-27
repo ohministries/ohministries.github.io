@@ -39,8 +39,8 @@ nav {
         background: $grey-color-light;
     }
 
-    span {
-        margin-top:$spacing-unit;
+    .has-children {
+        margin:$spacing-unit 0;
     }
 }
 

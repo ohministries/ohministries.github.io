@@ -10,7 +10,7 @@
     {% elsif page.url contains '/college' %}
     {% include nav.html base_url='/pages/college/' max_depth=4 disable_top_level_links=true %}
     {% else %}
-    {% include nav.html max_depth=3 %}
+    {% include nav.html base_url='/pages/' max_depth=3 %}
     {% endif %}
   </nav>
 

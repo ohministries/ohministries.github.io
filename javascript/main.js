@@ -16,4 +16,11 @@ jQuery(document).ready(function($) {
         }
     });
 
+    $(".menu-jump").click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#nav").offset().top
+        }, 500);
+    });
+
 });

@@ -30,17 +30,35 @@
 * Navigation
 */
 nav {
+    ul {
+        margin:0;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .has-children {
+        margin:$spacing-unit 0;
+    }
+
     a, span {
         line-height: 10mm;
         display: block;
+        padding:0 $spacing-unit;
+        text-decoration: none;
+    }
+
+    li li a {
+        padding:0 ($spacing-unit * 2);
     }
 
     a:hover, a:focus {
         background: $grey-color-light;
     }
 
-    .has-children {
-        margin:$spacing-unit 0;
+    span {
+        font-weight:bold;
     }
 }
 
@@ -51,7 +69,6 @@ nav {
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit;
 }
 
 .footer-heading {

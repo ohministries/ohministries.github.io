@@ -72,6 +72,10 @@ nav {
 .site-footer {
     border-top: 1px solid $grey-color-light;
 
+    h2 {
+        margin:$spacing-unit;
+    }
+
     .copyright {
         margin:$spacing-unit;
         font-size: 15px;

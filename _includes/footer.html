@@ -1,6 +1,9 @@
 <footer class="site-footer">
 
   <nav id="nav">
+    {% include get-section.html %}
+    <h2>Navigation: {{ section | capitalize }}</h2>
+
     {% if page.url contains '/academy' %}
     {% include nav.html base_url='/academy/' max_depth=3 disable_top_level_links=true %}
     {% elsif page.url contains '/college' %}

@@ -4,10 +4,16 @@
 .site-header {
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    padding: $spacing-unit;
+    background: $ministries-color;
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
-    margin: $spacing-unit;
+    .academy & {
+        background: $academy-color;
+    }
+
+    .college & {
+        background: $college-color;
+    }
 }
 
 .site-title {

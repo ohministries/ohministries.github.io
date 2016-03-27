@@ -19,13 +19,14 @@ $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark:  #3f3f3d;
+$grey-color:       lighten($grey-color-dark, 25%);
+$grey-color-light: lighten($grey-color-dark, 65%);
 
 $blue: #23527c;
 $green: #2d5a3a;
 
+$ministries-color: $grey-color-dark;
 $academy-color: $blue;
 $college-color: $green;
 

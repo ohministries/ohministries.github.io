@@ -2,7 +2,8 @@
 
   <nav id="nav">
     {% include get-section.html %}
-    <h2>Navigation: {{ section | capitalize }}</h2>
+    <h2>{{ section | capitalize }}</h2>
+    <h3>Navigation</h3>
 
     {% if page.url contains '/academy' %}
     {% include nav.html base_url='/academy/' max_depth=3 disable_top_level_links=true %}

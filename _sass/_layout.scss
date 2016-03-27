@@ -62,6 +62,26 @@ nav {
 /**
  * Site footer
  */
+
+// Sticky footer
+html, body {
+    height:100%;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+.page-content {
+    flex:1;
+}
+
+.site-header, .site-footer {
+    flex:none;
+}
+// End sticky footer
+
 .site-footer {
     color:$grey-color-light;
     padding:$spacing-unit 0;

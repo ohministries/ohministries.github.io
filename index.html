@@ -10,11 +10,13 @@ layout: home
   </div>
 
   <div class="news">
-    <ul>
-      {% for alert in site.news %}
-      <li>{{ alert.content }}</li>
-      {% endfor %}
-    </ul>
+    <div class="ticker">
+      <ul>
+        {% for alert in site.news %}
+        <li>{{ alert.content }}</li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 
 </div>

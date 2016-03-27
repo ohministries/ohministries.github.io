@@ -22,3 +22,7 @@ html {
 
   @extend %glazed-box;
 }
+
+.ticker p {
+  margin-bottom:0;
+}

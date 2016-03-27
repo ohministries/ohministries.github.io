@@ -1,44 +1,15 @@
 <footer class="site-footer">
 
-    <nav id="nav">
-      {% if page.url contains '/academy' %}
-      {% include nav.html base_url='/academy/' max_depth=3 disable_top_level_links=true %}
-      {% elsif page.url contains '/college' %}
-      {% include nav.html base_url='/college/' max_depth=3 disable_top_level_links=true %}
-      {% else %}
-      {% include nav.html max_depth=2 disable_top_level_links=true %}
-      {% endif %}
-    </nav>
+  <nav id="nav">
+    {% if page.url contains '/academy' %}
+    {% include nav.html base_url='/academy/' max_depth=3 disable_top_level_links=true %}
+    {% elsif page.url contains '/college' %}
+    {% include nav.html base_url='/college/' max_depth=3 disable_top_level_links=true %}
+    {% else %}
+    {% include nav.html max_depth=2 disable_top_level_links=true %}
+    {% endif %}
+  </nav>
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>Copyright 2016</p>
-      </div>
-    </div>
+  <p class="copyright">Copyright &#169; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
 
 </footer>

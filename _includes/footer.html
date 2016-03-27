@@ -6,9 +6,9 @@
     <h3>Navigation</h3>
 
     {% if page.url contains '/academy' %}
-    {% include nav.html base_url='/academy/' max_depth=3 disable_top_level_links=true %}
+    {% include nav.html base_url='/pages/academy/' max_depth=3 disable_top_level_links=true %}
     {% elsif page.url contains '/college' %}
-    {% include nav.html base_url='/college/' max_depth=3 disable_top_level_links=true %}
+    {% include nav.html base_url='/pages/college/' max_depth=3 disable_top_level_links=true %}
     {% else %}
     {% include nav.html max_depth=2 %}
     {% endif %}

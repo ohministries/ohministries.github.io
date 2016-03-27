@@ -5,15 +5,8 @@
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
     padding: $spacing-unit;
-    background: $ministries-color;
 
-    .academy & {
-        background: $academy-color;
-    }
-
-    .college & {
-        background: $college-color;
-    }
+    @extend %section-background;
 }
 
 .site-title {
@@ -70,7 +63,10 @@ nav {
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    color:$grey-color-light;
+    padding:$spacing-unit 0;
+
+    @extend %section-background;
 
     h2, h3 {
         margin:$spacing-unit;

@@ -3,16 +3,7 @@
 
   {% include head.html %}
 
-  {% assign section = 'ministries' %}
-  {% if page.url contains '/academy' %}
-    {% assign section = 'academy' %}
-  {% endif %}
-  {% if page.url contains '/college' %}
-    {% assign section = 'college' %}
-  {% endif %}
-  {% if page.url contains '/academy' and page.url contains '/college' %}
-    {% assign section = 'ministries' %}
-  {% endif %}
+  {% include get-section.html %}
 
   <body class="{{ section }}">
 

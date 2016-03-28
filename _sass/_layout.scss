@@ -74,7 +74,7 @@ body {
 }
 
 .page-content {
-    flex:1;
+    flex:1 0 auto;
 }
 
 .site-header, .site-footer {
@@ -87,6 +87,16 @@ body {
     padding:$spacing-unit 0;
 
     @extend %section-background;
+
+    .footer-search {
+        padding:0 $spacing-unit;
+        display: -webkit-flex;
+        display:flex;
+
+        input {
+            flex:1;
+        }
+    }
 
     h2, h3 {
         margin:$spacing-unit;

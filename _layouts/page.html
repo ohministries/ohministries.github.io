@@ -9,6 +9,9 @@ layout: default
 
   <div class="post-content">
     {{ page.content | markdownify }}
+
+    <a href="https://github.com/{{site.repo}}/edit/{{site.branch}}/{{page.path}}" class="edit" target="blank">
+      <span class="fa fa-pencil"></span>&nbsp;Edit</a>
   </div>
 
 </article>

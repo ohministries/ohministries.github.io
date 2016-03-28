@@ -12,7 +12,7 @@
     ========================================================================== */
 
 var q, jsonFeedUrl = "/javascript/vendor/search/feeds/feed.json",
-    $searchForm = $("[data-search-form]"),
+    $searchForm = "[data-search-form]",
     $searchInput = $("[data-search-input]"),
     $resultTemplate = $("#search-result"),
     $resultsPlaceholder = $("[data-search-results]"),
@@ -22,7 +22,6 @@ var q, jsonFeedUrl = "/javascript/vendor/search/feeds/feed.json",
     allowEmpty = true,
     showLoader = true,
     loadingClass = "is--loading";
-
 
 $(document).ready( function() {
     // hide items found string

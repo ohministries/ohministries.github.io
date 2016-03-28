@@ -1,0 +1,27 @@
+#nav.desktop {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  padding:0 $spacing-unit-relative;
+
+  @extend %section-background;
+
+  h2, h3 {
+    display:none;
+  }
+
+  ul ul {
+    display:none;
+  }
+
+  li {
+    float:left;
+    margin:0;
+
+    span, a {
+      padding:0 $spacing-unit-absolute/2;
+      font-weight:normal;
+    }
+  }
+}

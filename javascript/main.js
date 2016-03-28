@@ -25,4 +25,36 @@ jQuery(document).ready(function($) {
         }, 500);
     });
 
+    /* Nav Breakpoint */
+
+    var nav = $('#nav');
+
+    var calculateWidthNeeded = function() {
+        nav.addClass('desktop');
+
+        var needed = 0;
+        $('#nav > ul > li').each(function() {
+            needed += $(this).width();
+        });
+        return needed;
+    };
+
+    var setMobileClass = function(needed) {
+        var have = $('.site-header').width();
+        if (have < needed) {
+            nav.removeClass('desktop');
+        } else {
+            nav.addClass('desktop');
+        }
+    };
+
+    var needed = calculateWidthNeeded();
+    console.log(needed);
+
+    setMobileClass(needed);
+
+    $(window).resize(function() {
+        setMobileClass(needed);
+    });
+
 });

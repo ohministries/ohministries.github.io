@@ -4,6 +4,8 @@
 
 jQuery(document).ready(function($) {
 
+    $(document).foundation();
+
     $('.ticker').unslider({
         nav: false,
         autoplay: true,

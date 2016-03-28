@@ -4,7 +4,6 @@ title: Canvassing
 date: 2016-02-05T16:14:32+00:00
 author: erinohmin
 layout: page
-guid: http://localhost:8080/wordpress/?page_id=64
 ---
 Canvassing is a door-to-door ministry that connects students and individuals Students 
 travel in teams to communities around the country twice during the fall semester and 

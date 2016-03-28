@@ -4,7 +4,7 @@
 .site-header {
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    padding: $spacing-unit;
+    padding: $spacing-unit-relative;
 
     @extend %section-background;
 }
@@ -14,7 +14,7 @@
 }
 
 .menu-jump {
-    margin-top:$spacing-unit;
+    margin-top: $spacing-unit-relative;
     text-decoration: none;
     display:inline-block;
 }
@@ -34,18 +34,18 @@ nav {
     }
 
     .has-children {
-        margin:$spacing-unit 0;
+        margin: $spacing-unit-relative 0;
     }
 
     a, span {
         line-height: 10mm;
         display: block;
-        padding:0 $spacing-unit;
+        padding:0 $spacing-unit-relative;
         text-decoration: none;
     }
 
     li li a {
-        padding:0 ($spacing-unit * 2);
+        padding:0 ($spacing-unit-relative * 2);
     }
 
     a:hover, a:focus {
@@ -84,12 +84,12 @@ body {
 
 .site-footer {
     color:$grey-color-light;
-    padding:$spacing-unit 0;
+    padding: $spacing-unit-relative 0;
 
     @extend %section-background;
 
     .footer-search {
-        padding:0 $spacing-unit;
+        padding:0 $spacing-unit-relative;
         display: -webkit-flex;
         display:flex;
 
@@ -99,11 +99,11 @@ body {
     }
 
     h2, h3 {
-        margin:$spacing-unit;
+        margin: $spacing-unit-relative;
     }
 
     .copyright {
-        margin:$spacing-unit;
+        margin: $spacing-unit-relative;
         font-size: 15px;
         color: $grey-color;
     }
@@ -111,7 +111,7 @@ body {
 
 .footer-heading {
     font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit-relative / 2;
 }
 
 .contact-list,
@@ -123,49 +123,49 @@ body {
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
-    margin-left: -$spacing-unit / 2;
+    margin-left: -$spacing-unit-relative / 2;
     @extend %clearfix;
 }
 
 .footer-col {
     float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    margin-bottom: $spacing-unit-relative / 2;
+    padding-left: $spacing-unit-relative / 2;
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(35% - (#{$spacing-unit-relative} / 2));
+    width:         calc(35% - (#{$spacing-unit-relative} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(20% - (#{$spacing-unit-relative} / 2));
+    width:         calc(20% - (#{$spacing-unit-relative} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(45% - (#{$spacing-unit-relative} / 2));
+    width:         calc(45% - (#{$spacing-unit-relative} / 2));
 }
 
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(50% - (#{$spacing-unit-relative} / 2));
+        width:         calc(50% - (#{$spacing-unit-relative} / 2));
     }
 
     .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(100% - (#{$spacing-unit-relative} / 2));
+        width:         calc(100% - (#{$spacing-unit-relative} / 2));
     }
 }
 
 @include media-query($on-palm) {
     .footer-col {
         float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(100% - (#{$spacing-unit-relative} / 2));
+        width:         calc(100% - (#{$spacing-unit-relative} / 2));
     }
 }
 
@@ -175,7 +175,7 @@ body {
  * Page content
  */
 .page-content {
-    padding: $spacing-unit;
+    padding: $spacing-unit-relative;
 }
 
 .page-heading {
@@ -187,7 +187,7 @@ body {
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: $spacing-unit-relative;
     }
 }
 
@@ -201,13 +201,19 @@ body {
     font-size: 24px;
 }
 
+.edit {
+    margin-top: 0.8rem;
+    font-size: 1rem;
+    float: right;
+}
+
 
 
 /**
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit-relative;
 }
 
 .post-title {
@@ -221,7 +227,7 @@ body {
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit-relative;
 
     h2 {
         font-size: 32px;

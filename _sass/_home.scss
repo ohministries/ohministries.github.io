@@ -17,8 +17,8 @@ html {
 }
 
 .start, .news {
-  padding:$spacing-unit;
-  margin:0 0 $spacing-unit 0;
+  padding: $spacing-unit-relative;
+  margin:0 0 $spacing-unit-relative 0;
 
   @extend %glazed-box;
 }

@@ -12,7 +12,8 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     5vw;
+$spacing-unit-relative: 5vw;
+$spacing-unit-absolute: 1rem;
 
 // Colors
 $text-color:       #111;
@@ -57,6 +58,7 @@ $on-laptop:        800px;
 
 // Tools
 @import "placeholders";
+@import "components";
 
 // Basics
 @import "base";

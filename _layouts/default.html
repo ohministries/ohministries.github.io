@@ -8,6 +8,13 @@
 
     {% capture header %}{% include header.html %}{% endcapture %}{{ header | strip_newlines }}
 
+    {% if page.hero-image != nil %}
+    <div
+        class="hero"
+        style="background-image:url('{{ page.hero-image }}'); background-position:0 {{ page.hero-position }};"
+    ></div>
+    {% endif %}
+
     <div class="page-content">{{ content }}</div>
 
     {% include footer.html %}

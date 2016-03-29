@@ -72,4 +72,13 @@
       @extend %section-button;
     }
   }
+
+  .has-children span:after {
+    content: "\f078";
+    font-family: FontAwesome;
+    padding-left:7px;
+    font-size:smaller;
+    position:relative;
+    top:-1px;
+  }
 }

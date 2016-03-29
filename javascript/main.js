@@ -4,7 +4,11 @@
 
 jQuery(document).ready(function($) {
 
+    /* Initialize ZURB Foundation */
+
     $(document).foundation();
+
+    /* Front page news ticker */
 
     $('.ticker').unslider({
         nav: false,
@@ -17,6 +21,8 @@ jQuery(document).ready(function($) {
             next: '<a class="unslider-arrow next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>'
         }
     });
+
+    /* Mobile nav jump */
 
     $(".menu-jump").click(function(e) {
         e.preventDefault();

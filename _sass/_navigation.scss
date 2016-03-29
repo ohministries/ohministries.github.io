@@ -34,11 +34,11 @@
       margin: $spacing-unit-absolute 0;
     }
 
-    a, a:visited {
+    a {
       @extend %section-button;
     }
 
-    a, a:visited, span {
+    a, span {
       line-height: $touch-target-size;
       height: $touch-target-size;
       padding:0 $spacing-unit-relative;

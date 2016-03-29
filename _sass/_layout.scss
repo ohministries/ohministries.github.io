@@ -2,8 +2,7 @@
  * Site header
  */
 .site-header {
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    height:11rem;
     padding: $spacing-unit-absolute $spacing-unit-relative;
 
     @extend %section-background-color;
@@ -14,6 +13,7 @@
     display:block;
     height:5rem;
     overflow:hidden;
+    margin-bottom:$spacing-unit-absolute;
 
     img {
         display:block;

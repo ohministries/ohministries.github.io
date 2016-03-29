@@ -1,54 +1,61 @@
+.section-switcher {
+  @extend %focus-menu;
+
+  span {
+    margin-right:1px;
+    @extend %section-button-primary;
+  }
+
+  a {
+    @extend %section-button;
+  }
+}
+
 .menu-jump {
-  margin-top: $spacing-unit-absolute;
   text-decoration: none;
   display:inline-block;
 
   @extend %section-button;
 }
 
-#nav {
-  ul {
-    margin:0;
-  }
-
-  li {
-    list-style-type: none;
-  }
-
-  .has-children {
-    margin: $spacing-unit-absolute 0;
-  }
-
-  a, a:visited {
-    @extend %section-button;
-  }
-
-  a, a:visited, span {
-    line-height: $touch-target-size;
-    height: $touch-target-size;
-    display: block;
-    padding:0 $spacing-unit-relative;
-    text-decoration: none;
-  }
-
-  li li a {
-    padding:0 ($spacing-unit-relative * 2);
-  }
-
-  span {
-    font-weight:bold;
-  }
-}
-
-.top-nav .site-header {
-  height:11rem;
-
-  .menu-jump {
+.nav {
+  .secton-switcher {
     display:none;
   }
+
+  & > ul {
+    margin:0;
+
+    li {
+      list-style-type: none;
+    }
+
+    .has-children {
+      margin: $spacing-unit-absolute 0;
+    }
+
+    a, a:visited {
+      @extend %section-button;
+    }
+
+    a, a:visited, span {
+      line-height: $touch-target-size;
+      height: $touch-target-size;
+      padding:0 $spacing-unit-relative;
+      display:block;
+    }
+
+    li li a {
+      padding:0 ($spacing-unit-relative * 2);
+    }
+
+    span {
+      font-weight:bold;
+    }
+  }
 }
 
-.top-nav #nav {
+.top-nav .nav {
   position:absolute;
   top:9rem;
   left:0;
@@ -57,6 +64,10 @@
   height: $button-height;
 
   @extend %section-background-color;
+
+  & > * {
+    float:left;
+  }
 
   &.docked {
     position:fixed;
@@ -67,40 +78,20 @@
     display:none;
   }
 
-  & > ul > li {
-    float:left;
-    margin:0;
-    position:relative;
-  }
-
-  span, a {
-    font-weight:normal;
-    @extend %section-button;
-  }
-
-  .has-children span:after {
-    content: "\f078";
-    font-family: FontAwesome;
-    padding-left:7px;
-    font-size:smaller;
-    position:relative;
-    top:-1px;
-  }
-
-  .has-children > span:focus + ul,
-  .has-children > a:focus + ul {
-    visibility:visible;
-  }
-
-  ul ul {
-    visibility:hidden;
-    transition: visibility 0.1s;
-    position:absolute;
-    min-width:100%;
-    @extend %section-background-color;
-
-    a {
-      white-space:nowrap;
+  & > ul {
+    & > li {
+      float:left;
+      margin:0;
+      margin-right:1px;
     }
+
+    span, a {
+      font-weight:normal;
+      @extend %section-button;
+    }
+  }
+
+  .has-children {
+    @extend %focus-menu;
   }
 }

@@ -42,7 +42,7 @@
         {% assign li_classes = 'page-link has-children' %}
         {% if include.disable_top_level_links and start_lvl == current_lvl_url_length %}
           {% assign element = 'span' %}
-          {% assign extra_atts = 'tabindex="-1"' %}
+          {% assign extra_atts = 'tabindex="0"' %}
         {% endif %}
       {% endif %}
 

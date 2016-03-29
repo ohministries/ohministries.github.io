@@ -3,6 +3,50 @@
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, .1);
 }
 
+%menu-indicator {
+  &:after {
+    content: "\f078";
+    font-family: FontAwesome;
+    padding-left:7px;
+    font-size:smaller;
+    position:relative;
+    top:-1px;
+  }
+}
+
+%focus-menu {
+  position:relative;
+  display:inline-block;
+
+  span {
+    @extend %menu-indicator;
+  }
+
+  span:focus + ul {
+    visibility:visible;
+  }
+
+  ul {
+    visibility:hidden;
+    transition: visibility 0.1s;
+    position:absolute;
+    min-width:100%;
+    margin:0;
+    @extend %section-background-color;
+
+    li {
+      list-style-type:none;
+    }
+
+    a {
+      white-space:nowrap;
+      display:block;
+    }
+  }
+}
+
+// Section Colors
+
 %section-background-color {
   background: $ministries-color;
   .academy & {
@@ -23,17 +67,34 @@
   }
 }
 
-%section-button {
-  color:$grey-color-light;
+// Buttons
+
+%button {
   cursor:pointer;
   padding:0 $spacing-unit-absolute/2;
   line-height: $button-height;
   height: $button-height;
+  text-decoration: none;
+  display:inline-block;
+}
 
+%section-button {
+  @extend %button;
   @extend %section-background-color;
+  color:$grey-color-light;
+
+  &:visited {
+    color:$grey-color-light;
+  }
 
   &:hover, &:focus {
     background: $grey-color-light;
     @extend %section-text-color;
   }
+}
+
+%section-button-primary {
+  @extend %button;
+  @extend %section-text-color;
+  background: $grey-color-light;
 }

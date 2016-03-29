@@ -5,7 +5,9 @@
     <button type="submit" id="searchsubmit" class="button"><span class="fa fa-search"></span></button>
   </form>
 
-  <nav id="nav">
+  <nav id="nav" class="nav">
+    {% include section-switcher.html %}
+
     {% include get-section.html %}
     <h2>{{ section | capitalize }}</h2>
     <h3>Navigation</h3>

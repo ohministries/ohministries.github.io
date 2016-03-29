@@ -8,10 +8,6 @@
   <nav id="nav" class="nav">
     {% include section-switcher.html %}
 
-    {% include get-section.html %}
-    <h2>{{ section | capitalize }}</h2>
-    <h3>Navigation</h3>
-
     {% if page.url contains '/academy' %}
     {% include nav.html base_url='/pages/academy/' max_depth=4 disable_top_level_links=true %}
     {% elsif page.url contains '/college' %}

@@ -1,3 +1,7 @@
+{% comment %}
+page = page to get url of first child from
+{% endcomment %}
+
 {% assign needle = include.page.url | split: '.' | first | append: '/' %}
 {% assign pages = site.pages | sort: "sort" %}
 {% for page in pages %}

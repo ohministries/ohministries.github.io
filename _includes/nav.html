@@ -1,4 +1,8 @@
-{% comment %} Init call with base_url (optional), max_depth, and disable_top_level_links (optional). {% endcomment %}
+{% comment %}
+Init call with base_url (optional), max_depth, disable_top_level_links (optional), and redirect_max_depth (optional).
+
+redirect_max_depth = (bool) if true, redirect last level of links to first child of each page, if children exist.
+{% endcomment %}
 
 {% if lvl_base_url == nil %}
   {% assign lvl_base_url = '/' %}
@@ -49,7 +53,7 @@
       {% endif %}
 
       {% assign node_url = node.url %}
-      {% if current_lvl_url_length == include.max_depth %}
+      {% if include.redirect_max_depth and current_lvl_url_length == include.max_depth %}
         {% capture child_url %}{% include first-child-url.html page=node %}{% endcapture %}
         {% assign child_url = child_url | strip %}
         {% if child_url.size > 0 %}

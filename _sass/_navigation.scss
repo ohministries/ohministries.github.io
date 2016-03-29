@@ -1,3 +1,36 @@
+nav {
+  ul {
+    margin:0;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  .has-children {
+    margin: $spacing-unit-absolute 0;
+  }
+
+  a, a:visited {
+    @extend %section-button;
+  }
+
+  a, a:visited, span {
+    line-height: 10mm;
+    display: block;
+    padding:0 $spacing-unit-relative;
+    text-decoration: none;
+  }
+
+  li li a {
+    padding:0 ($spacing-unit-relative * 2);
+  }
+
+  span {
+    font-weight:bold;
+  }
+}
+
 #nav.desktop {
   position:fixed;
   top:0;
@@ -5,7 +38,7 @@
   right:0;
   padding:0 $spacing-unit-relative;
 
-  @extend %section-background;
+  @extend %section-background-color;
 
   h2, h3 {
     display:none;
@@ -22,6 +55,7 @@
     span, a {
       padding:0 $spacing-unit-absolute/2;
       font-weight:normal;
+      @extend %section-button;
     }
   }
 }

@@ -6,7 +6,7 @@
     min-height: 56px;
     padding: $spacing-unit-absolute $spacing-unit-relative;
 
-    @extend %section-background;
+    @extend %section-background-color;
 }
 
 .site-title {
@@ -17,44 +17,6 @@
     margin-top: $spacing-unit-absolute;
     text-decoration: none;
     display:inline-block;
-}
-
-
-
-/**
-* Navigation
-*/
-nav {
-    ul {
-        margin:0;
-    }
-
-    li {
-        list-style-type: none;
-    }
-
-    .has-children {
-        margin: $spacing-unit-absolute 0;
-    }
-
-    a, span {
-        line-height: 10mm;
-        display: block;
-        padding:0 $spacing-unit-relative;
-        text-decoration: none;
-    }
-
-    li li a {
-        padding:0 ($spacing-unit-relative * 2);
-    }
-
-    a:hover, a:focus {
-        background: $grey-color-light;
-    }
-
-    span {
-        font-weight:bold;
-    }
 }
 
 
@@ -86,7 +48,7 @@ body {
     color:$grey-color-light;
     padding: $spacing-unit-absolute 0;
 
-    @extend %section-background;
+    @extend %section-background-color;
 
     .footer-search {
         padding:0 $spacing-unit-relative;

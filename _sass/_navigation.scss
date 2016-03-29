@@ -19,7 +19,7 @@
 }
 
 .nav {
-  .secton-switcher {
+  .section-switcher {
     display:none;
   }
 
@@ -45,12 +45,16 @@
       display:block;
     }
 
-    li li a {
-      padding:0 ($spacing-unit-relative * 2);
+    span {
+      font-weight: bold;
     }
 
-    span {
-      font-weight:bold;
+    ul {
+      margin:0;
+    }
+
+    li li a {
+      padding:0 ($spacing-unit-relative * 2);
     }
   }
 }
@@ -74,8 +78,8 @@
     top:0;
   }
 
-  h2, h3 {
-    display:none;
+  .section-switcher {
+    display:inline-block;
   }
 
   & > ul {

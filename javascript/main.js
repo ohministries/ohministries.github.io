@@ -27,10 +27,10 @@ jQuery(document).ready(function($) {
 
     /* Nav Breakpoint */
 
-    var nav = $('#nav');
+    var body = $('body');
 
     var calculateWidthNeeded = function() {
-        nav.addClass('desktop');
+        body.addClass('top-nav');
 
         var needed = 0;
         $('#nav > ul > li').each(function() {
@@ -42,9 +42,9 @@ jQuery(document).ready(function($) {
     var setMobileClass = function(needed) {
         var have = $('.site-header').width();
         if (have < needed) {
-            nav.removeClass('desktop');
+            body.removeClass('top-nav');
         } else {
-            nav.addClass('desktop');
+            body.addClass('top-nav');
         }
     };
 
@@ -56,5 +56,27 @@ jQuery(document).ready(function($) {
     $(window).resize(function() {
         setMobileClass(needed);
     });
+
+    /* Docking Nav */
+
+    var nav = $('#nav');
+
+    if (nav.length) {
+        var navPosition = nav.offset().top;
+
+        var stickyNav = function(nav, navPosition){
+            if ($(window).scrollTop() > navPosition) {
+                nav.addClass('docked');
+            } else {
+                nav.removeClass('docked');
+            }
+        };
+
+        stickyNav(nav, navPosition);
+
+        $(window).on('scroll mousewheel', function() {
+            stickyNav(nav, navPosition);
+        });
+    }
 
 });

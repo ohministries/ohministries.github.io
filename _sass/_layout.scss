@@ -11,6 +11,14 @@
 
 .site-title {
     max-width: 100%;
+    display:block;
+    height:5rem;
+    overflow:hidden;
+
+    img {
+        display:block;
+        height:100%;
+    }
 }
 
 .menu-jump {

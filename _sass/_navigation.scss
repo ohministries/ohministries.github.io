@@ -1,4 +1,4 @@
-nav {
+#nav {
   ul {
     margin:0;
   }
@@ -31,14 +31,27 @@ nav {
   }
 }
 
-#nav.desktop {
-  position:fixed;
-  top:0;
+.top-nav .site-header {
+  height:11rem;
+
+  .menu-jump {
+    display:none;
+  }
+}
+
+.top-nav #nav {
+  position:absolute;
+  top:9rem;
   left:0;
   right:0;
   padding:0 $spacing-unit-relative;
 
   @extend %section-background-color;
+
+  &.docked {
+    position:fixed;
+    top:0;
+  }
 
   h2, h3 {
     display:none;
@@ -55,6 +68,7 @@ nav {
     span, a {
       padding:0 $spacing-unit-absolute/2;
       font-weight:normal;
+      line-height:2rem;
       @extend %section-button;
     }
   }

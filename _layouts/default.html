@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html>
+{% include get-section.html %}
+<html class="{{ section }}">
 
   {% include head.html %}
 
-  {% include get-section.html %}
-
-  <body class="{{ section }}">
+  <body>
 
     {% capture header %}{% include header.html %}{% endcapture %}{{ header | strip_newlines }}
 

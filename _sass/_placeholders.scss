@@ -25,9 +25,7 @@
 
 %section-button {
   color:$grey-color-light;
-  // Two cursor declarations for browser compatability: http://stackoverflow.com/a/3088012/937377
   cursor:pointer;
-  cursor:hand;
   @extend %section-background-color;
 
   &:hover, &:focus {

@@ -1,3 +1,11 @@
+.menu-jump {
+  margin-top: $spacing-unit-absolute;
+  text-decoration: none;
+  display:inline-block;
+
+  @extend %section-button;
+}
+
 #nav {
   ul {
     margin:0;
@@ -16,7 +24,8 @@
   }
 
   a, a:visited, span {
-    line-height: 10mm;
+    line-height: $touch-target-size;
+    height: $touch-target-size;
     display: block;
     padding:0 $spacing-unit-relative;
     text-decoration: none;
@@ -39,15 +48,13 @@
   }
 }
 
-$top-nav-height:2rem;
-
 .top-nav #nav {
   position:absolute;
   top:9rem;
   left:0;
   right:0;
   padding:0 $spacing-unit-relative;
-  height:$top-nav-height;
+  height: $button-height;
 
   @extend %section-background-color;
 
@@ -67,10 +74,7 @@ $top-nav-height:2rem;
   }
 
   span, a {
-    padding:0 $spacing-unit-absolute/2;
     font-weight:normal;
-    line-height:$top-nav-height;
-    height:$top-nav-height;
     @extend %section-button;
   }
 

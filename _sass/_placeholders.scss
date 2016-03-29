@@ -26,6 +26,10 @@
 %section-button {
   color:$grey-color-light;
   cursor:pointer;
+  padding:0 $spacing-unit-absolute/2;
+  line-height: $button-height;
+  height: $button-height;
+
   @extend %section-background-color;
 
   &:hover, &:focus {

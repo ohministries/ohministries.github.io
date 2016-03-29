@@ -17,12 +17,46 @@ html {
 }
 
 .start, .news {
-  padding: $spacing-unit-relative;
-  margin:0 0 $spacing-unit-relative 0;
-
+  margin:0 0 $spacing-unit-absolute 0;
   @extend %glazed-box;
+}
+
+.start {
+  padding: $spacing-unit-absolute;
 }
 
 .ticker p {
   margin-bottom:0;
+}
+
+.news {
+  position:relative;
+  padding: $spacing-unit-absolute/2 $spacing-unit-absolute;
+
+  .unslider-arrow.prev, .unslider-arrow.next {
+    position:absolute;
+    top:0.7rem;
+    width:$spacing-unit-absolute;
+    height:$touch-target-size;
+    display:flex;
+    text-decoration:none;
+    opacity: 0;
+    transition: opacity .5s;
+
+    span {
+      margin:auto;
+    }
+  }
+
+  &:hover .unslider-arrow.prev, &:hover .unslider-arrow.next {
+    opacity:1;
+  }
+
+  .unslider-arrow.prev {
+    left:0;
+  }
+
+  .unslider-arrow.next {
+    right:0;
+  }
 }

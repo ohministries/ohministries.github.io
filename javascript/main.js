@@ -17,8 +17,8 @@ jQuery(document).ready(function($) {
         animation: 'fade',
         animateHeight: true,
         arrows: {
-            prev: '<a class="unslider-arrow prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>',
-            next: '<a class="unslider-arrow next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>'
+            prev: '<a class="unslider-arrow prev"><span class="fa fa-chevron-left" aria-hidden="true"></span></a>',
+            next: '<a class="unslider-arrow next"><span class="fa fa-chevron-right" aria-hidden="true"></span></a>'
         }
     });
 

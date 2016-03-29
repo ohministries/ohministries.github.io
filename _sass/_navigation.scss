@@ -83,14 +83,16 @@ $top-nav-height:2rem;
     top:-1px;
   }
 
-  ul ul {
-    display:none;
-  }
-
   .has-children > span:focus + ul,
   .has-children > a:focus + ul {
-    display:block;
+    visibility:visible;
+  }
+
+  ul ul {
+    visibility:hidden;
+    transition: visibility 0.1s;
     position:absolute;
+    min-width:100%;
     @extend %section-background-color;
 
     a {

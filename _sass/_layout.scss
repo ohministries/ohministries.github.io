@@ -73,7 +73,7 @@ body {
     }
 
     .copyright {
-        margin: $spacing-unit-absolute $spacing-unit-relative;
+        margin: $spacing-unit-absolute $spacing-unit-relative 0 $spacing-unit-relative;
         font-size: 15px;
         color: $grey-color;
     }

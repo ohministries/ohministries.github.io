@@ -39,12 +39,15 @@
   }
 }
 
+$top-nav-height:2rem;
+
 .top-nav #nav {
   position:absolute;
   top:9rem;
   left:0;
   right:0;
   padding:0 $spacing-unit-relative;
+  height:$top-nav-height;
 
   @extend %section-background-color;
 
@@ -68,7 +71,8 @@
     span, a {
       padding:0 $spacing-unit-absolute/2;
       font-weight:normal;
-      line-height:2rem;
+      line-height:$top-nav-height;
+      height:$top-nav-height;
       @extend %section-button;
     }
   }

@@ -16,8 +16,10 @@
   {% assign start_lvl = current_lvl_url_length %}
 {% endif %}
 
+{% assign nodes = site.pages | sort: "sort" %}
+
 {% capture links %}
-  {% for node in site.pages %}
+  {% for node in nodes %}
     {% assign node_url_length = node.url | split: '/' | size | minus: 1 %}
     {% assign filename = node.url | split: '/' | last %}
     {% if node_url_length == current_lvl_url_length and node.url contains lvl_base_url and filename != 'index.html' and filename contains 'html' %}
@@ -46,8 +48,17 @@
         {% endif %}
       {% endif %}
 
+      {% assign node_url = node.url %}
+      {% if current_lvl_url_length == include.max_depth %}
+        {% capture child_url %}{% include first-child-url.html page=node %}{% endcapture %}
+        {% assign child_url = child_url | strip %}
+        {% if child_url.size > 0 %}
+          {% assign node_url = child_url %}
+        {% endif %}
+      {% endif %}
+
       <li class="{{ li_classes }}">
-        <{{ element }} {{ extra_atts }} href='{{ node.url }}'>{{ node.title }}</{{ element }}>
+        <{{ element }} {{ extra_atts }} href='{{ node_url }}'>{{ node.title }}{{ extra_stuff }}</{{ element }}>
         {{ subnav }}
       </li>
     {% endif %}

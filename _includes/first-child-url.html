@@ -1,0 +1,8 @@
+{% assign needle = include.page.url | split: '.' | first | append: '/' %}
+{% assign pages = site.pages | sort: "sort" %}
+{% for page in pages %}
+  {% if page.url contains needle %}
+    {{ page.url }}
+    {% break %}
+  {% endif %}
+{% endfor %}

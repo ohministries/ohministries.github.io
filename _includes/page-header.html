@@ -1,27 +1,36 @@
 <header class="post-header">
 
   {% assign current_page_url_length = page.url | split: '/' | size %}
-  {% assign rm = page.url | split: '/' | last | prepend: '/' %}
-  {% assign parent_needle = page.url | replace: rm | append: '.html' %}
-  {% assign sibling_needle = page.url | replace: rm | append: '/' %}
 
-  {% capture siblings_nav_items %}
-    {% for candidate in site.pages %}
-      {% if candidate.url contains parent_needle %}
-        {% assign parent=candidate %}
-      {% endif %}
-      {% assign candidate_url_length = candidate.url | split: '/' | size %}
-      {% if candidate.url contains sibling_needle and candidate_url_length == current_page_url_length %}
-        <li><a href="{{ candidate.url }}">{{ candidate.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-  {% endcapture %}
+  {% if current_page_url_length == 5 %}
 
-  <h1>{{ parent.title }} {% include edit-button.html %}</h1>
+    {% assign rm = page.url | split: '/' | last | prepend: '/' %}
+    {% assign parent_needle = page.url | replace: rm | append: '.html' %}
+    {% assign sibling_needle = page.url | replace: rm | append: '/' %}
 
-  {% assign siblings_nav_items = siblings_nav_items | strip %}
-  {% if siblings_nav_items.size > 0 %}
-    <ul>{{ siblings_nav_items }}</ul>
-  {% endif %}
+    {% capture siblings_nav_items %}
+      {% for candidate in site.pages %}
+        {% if candidate.url contains parent_needle %}
+          {% assign parent=candidate %}
+        {% endif %}
+        {% assign candidate_url_length = candidate.url | split: '/' | size %}
+        {% if candidate.url contains sibling_needle and candidate_url_length == current_page_url_length %}
+          <li><a href="{{ candidate.url }}">{{ candidate.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endcapture %}
+
+    <h1>{{ parent.title }} {% include edit-button.html %}</h1>
+
+    {% assign siblings_nav_items = siblings_nav_items | strip %}
+    {% if siblings_nav_items.size > 0 %}
+      <ul>{{ siblings_nav_items }}</ul>
+    {% endif %}
+
+  {% else %}
+
+    <h1>{{ page.title }} {% include edit-button.html %}</h1>
+
+  {% endif%}
 
 </header>

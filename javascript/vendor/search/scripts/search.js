@@ -169,6 +169,10 @@ function generateAutoExcerpt(item) {
     var end = index + 150;
 
     var excerpt = preparedContent.substring(start,end);
+
+    var regex = new RegExp(q,'gi');
+    excerpt = excerpt.replace(regex, "<strong>"+q+"</strong>");
+
     if (end < preparedContent.length) excerpt += '...';
     if (start !== 0) excerpt = '...' + excerpt;
 

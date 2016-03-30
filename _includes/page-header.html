@@ -15,7 +15,11 @@
         {% endif %}
         {% assign candidate_url_length = candidate.url | split: '/' | size %}
         {% if candidate.url contains sibling_needle and candidate_url_length == current_page_url_length %}
-          <li><a href="{{ candidate.url }}">{{ candidate.title }}</a></li>
+          {% assign extra_atts = '' %}
+          {% if candidate.url == page.url %}
+            {% assign extra_atts = ' class="current-page"' %}
+          {% endif %}
+          <li{{ extra_atts }}><a href="{{ candidate.url }}">{{ candidate.title }}</a></li>
         {% endif %}
       {% endfor %}
     {% endcapture %}

@@ -26,6 +26,15 @@ Open `http://localhost:4000/` in a browser.
 
 ## Content Editing Documentation
 
+### Navigation and Page Hierarchy
+
+Tier   | Contains                                                    | Notes
+-------|-------------------------------------------------------------|-------
+Tier 1 | Academy and College section homes; generic Ministries pages |
+Tier 2 | Section subpages                                            | Content of a subpage with children is inaccessible
+Tier 3 | Section grandchildren                                       | Exposed in in-page navigation
+Tier 4 | Section grandchildren tabs                                  | Exposed in in-page tabbed interface
+
 ### Page and Post Frontmatter
 
 Frontmatter is the information between the two `---` at the beggining of a page's `.md` file. Frontmatter for posts

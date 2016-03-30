@@ -2,7 +2,9 @@
 
 Ouachita Hills Ministries Jekyll site
 
-## First-time install
+## Setting Up Local Development Environment
+
+### First-time install
 
 ```
 git clone https://github.com/ohministries/ohministries.github.io.git
@@ -13,18 +15,18 @@ jekyll serve --watch
 
 Open `http://localhost:4000/` in a browser.
 
-## Launching website any other time
+### Launching website any other time
 
 1. `cd` into `ohministries.github.io` folder
 2. Run `jekyll serve --watch`. (Long build times getting you down? Try adding the `--incremental` option.)
 3. Open `http://localhost:4000/` in a browser.
 
-## Dev Dependencies
+### Dev Dependencies
 
 - Git
 - Jekyll
 
-## Content Editing Documentation
+## Editing Content
 
 ### Navigation and Page Hierarchy
 

@@ -1,0 +1,39 @@
+{% assign current_page_url_length = page.url | split: '/' | size %}
+
+{% if current_page_url_length == 5 %}
+  {% assign needle = page.url | split: '.' | first | append: '/' %}
+  {% assign tabs = '' %}
+
+  {% capture tabs %}
+    {% for candidate in site.pages | sort: "sort" %}
+      {% if candidate.url contains needle %}
+        <li class="tabs-title"><a href="#panel-{% increment tab-link %}">{{ candidate.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  {% endcapture %}
+
+  {% assign tabs = tabs | strip %}
+  {% if tabs.size > 0 %}
+    <ul class="tabs" data-tabs id="page-tabs">
+      <li class="tabs-title is-active"><a href="#panel-home" aria-selected="true">Home</a></li>
+      {{ tabs }}
+    </ul>
+
+    {% capture panels %}
+      {% for candidate in site.pages | sort: "sort" %}
+        {% if candidate.url contains needle %}
+          <div class="tabs-panel" id="panel-{% increment tab-panel %}">{{ candidate.content | markdownify }}</div>
+        {% endif %}
+      {% endfor %}
+    {% endcapture %}
+
+    <div class="tabs-content" data-tabs-content="page-tabs">
+      <div class="tabs-panel is-active" id="panel-home">{{ page.content | markdownify }}</div>
+      {{ panels }}
+    </div>
+  {% else %}
+    {{ page.content | markdownify }}
+  {% endif %}
+{% else %}
+  {{ page.content | markdownify }}
+{% endif %}

@@ -113,8 +113,8 @@ body {
     padding: $spacing-unit-absolute $spacing-unit-relative;
 }
 
-.page-heading {
-    font-size: 20px;
+.page-heading h1 {
+    padding-left:.5rem;
 }
 
 .post-list {

@@ -18,6 +18,12 @@
   @extend %section-button;
 }
 
+
+
+/**
+ * Mobile nav
+ */
+
 .nav {
   .section-switcher {
     display:none;
@@ -59,6 +65,12 @@
   }
 }
 
+
+
+/**
+ * Desktop nav
+ */
+
 .top-nav .nav {
   position:absolute;
   top:9rem;
@@ -97,5 +109,36 @@
 
   .has-children {
     @extend %focus-menu;
+  }
+}
+
+
+
+/**
+ * Page header nav
+ */
+
+.page-nav {
+  margin:0;
+
+  li {
+    list-style-type:none;
+    margin-bottom:.3rem;
+  }
+
+  a {
+    border-radius:3px;
+    text-decoration:none;
+    display:block;
+    padding:.5rem;
+  }
+
+  a:hover {
+    background-color:$grey-color-light;
+  }
+
+  .current-page a {
+    color:$grey-color-light;
+    @extend %section-background-color;
   }
 }

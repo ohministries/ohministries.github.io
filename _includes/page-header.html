@@ -1,4 +1,4 @@
-<header class="post-header">
+<header class="page-heading">
 
   {% assign current_page_url_length = page.url | split: '/' | size %}
 
@@ -28,7 +28,7 @@
 
     {% assign siblings_nav_items = siblings_nav_items | strip %}
     {% if siblings_nav_items.size > 0 %}
-      <ul>{{ siblings_nav_items }}</ul>
+      <ul class="page-nav">{{ siblings_nav_items }}</ul>
     {% endif %}
 
   {% else %}

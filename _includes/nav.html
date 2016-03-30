@@ -54,7 +54,7 @@ redirect_max_depth = (bool) if true, redirect last level of links to first child
 
       {% assign node_url = node.url %}
       {% if include.redirect_max_depth and current_lvl_url_length == include.max_depth %}
-        {% capture child_url %}{% include first-child-url.html page=node %}{% endcapture %}
+        {% capture child_url %}{% include nav-first-child-url.html page=node %}{% endcapture %}
         {% assign child_url = child_url | strip %}
         {% if child_url.size > 0 %}
           {% assign node_url = child_url %}

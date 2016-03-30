@@ -113,8 +113,8 @@ body {
     padding: $spacing-unit-absolute $spacing-unit-relative;
 }
 
-.page-heading h1 {
-    padding-left:.5rem;
+.page-heading {
+    font-size: 20px;
 }
 
 .post-list {
@@ -142,9 +142,12 @@ body {
     float: right;
 }
 
+
+
 /**
  * Posts
  */
+
 .post-header {
     margin-bottom: $spacing-unit-absolute;
 }

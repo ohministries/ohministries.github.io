@@ -99,7 +99,7 @@ body {
 
 
 /**
- * Page content
+ * Default layout
  */
 
 .hero {
@@ -136,18 +136,25 @@ body {
     font-size: 24px;
 }
 
-.edit {
-    margin-top: 0.8rem;
-    font-size: 1rem;
-    float: right;
-}
-
 
 
 /**
- * Posts
+ * Post & page layouts
  */
 
 .post-header {
     margin-bottom: $spacing-unit-absolute;
+    margin-right: $spacing-unit-absolute;
+    display:table;
+    float:left;
+    max-width:17.5rem;
+}
+
+.edit {
+    margin-top: $spacing-unit-absolute;
+}
+
+.post-content {
+    max-width:35rem;
+    float:left;
 }

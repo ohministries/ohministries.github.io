@@ -22,18 +22,26 @@
     {% capture panels %}
       {% for candidate in site.pages | sort: "sort" %}
         {% if candidate.url contains needle %}
-          <div class="tabs-panel" id="panel-{% increment tab-panel %}">{{ candidate.content | markdownify }}</div>
+          <div class="tabs-panel" id="panel-{% increment tab-panel %}">
+            {{ candidate.content | markdownify }}
+            {% include edit-button.html page=candidate %}
+          </div>
         {% endif %}
       {% endfor %}
     {% endcapture %}
 
     <div class="tabs-content" data-tabs-content="page-tabs">
-      <div class="tabs-panel is-active" id="panel-home">{{ page.content | markdownify }}</div>
+      <div class="tabs-panel is-active" id="panel-home">
+        {{ page.content | markdownify }}
+        {% include edit-button.html page=page %}
+      </div>
       {{ panels }}
     </div>
   {% else %}
     {{ page.content | markdownify }}
+    {% include edit-button.html page=page %}
   {% endif %}
 {% else %}
   {{ page.content | markdownify }}
+  {% include edit-button.html page=page %}
 {% endif %}

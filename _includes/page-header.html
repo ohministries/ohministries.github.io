@@ -9,7 +9,7 @@
     {% assign sibling_needle = page.url | replace: rm | append: '/' %}
 
     {% capture siblings_nav_items %}
-      {% for candidate in site.pages %}
+      {% for candidate in site.pages | sort: "sort" %}
         {% if candidate.url contains parent_needle %}
           {% assign parent=candidate %}
         {% endif %}

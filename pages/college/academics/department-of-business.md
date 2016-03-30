@@ -1,13 +1,8 @@
 ---
-id: 182
 title: Department of Business
-date: 2016-02-10T17:14:32+00:00
-author: erinohmin
 layout: page
-guid: http://localhost:8080/wordpress/?page_id=182
-ohHeroPosition:
-  - 50
-image: /wp-content/uploads/2016/02/IMG_4484-1393.jpg
+hero-position: 50
+hero-image: /uploads/images/IMG_4484-1393.jpg
 ---
 
 ## Home

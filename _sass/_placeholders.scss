@@ -94,3 +94,19 @@
   @extend %section-text-color;
   background: $grey-color-light;
 }
+
+%pill {
+  border-radius:3px;
+  text-decoration:none;
+  display:inline-block;
+  padding:.5rem;
+
+  &:hover {
+    background-color:$grey-color-light;
+  }
+
+  .is-active &, &:focus, &[aria-selected="true"] {
+    color:$grey-color-light;
+    @extend %section-background-color;
+  }
+}

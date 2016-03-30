@@ -17,7 +17,7 @@
         {% if candidate.url contains sibling_needle and candidate_url_length == current_page_url_length %}
           {% assign extra_atts = '' %}
           {% if candidate.url == page.url %}
-            {% assign extra_atts = ' class="current-page"' %}
+            {% assign extra_atts = ' class="is-active"' %}
           {% endif %}
           <li{{ extra_atts }}><a href="{{ candidate.url }}">{{ candidate.title }}</a></li>
         {% endif %}

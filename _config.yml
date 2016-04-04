@@ -15,3 +15,5 @@ collections:
 - news
 sass:
   style: compressed
+gems:
+- jekyll-sitemap

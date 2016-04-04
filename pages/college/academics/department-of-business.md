@@ -23,6 +23,6 @@ significance of their studies.
 
 We promise our students an extraordinary preparation for responsible servant- leadership in business and service organization. 
 
-COme and expereince our Business Department!
+Come and expereince our Business Department!
 
 *Dr. Satyanarayana Ramella, Department Chair*

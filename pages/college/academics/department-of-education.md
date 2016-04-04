@@ -1,8 +1,8 @@
 ---
 title: Department of Education
 layout: page
-HeroPosition: 50
-image: /uploads/images/OpenBook.jpg
+hero-position: 50
+hero-image: /uploads/images/OpenBook.jpg
 ---
 <div class="su-tabs su-tabs-style-default" data-active="1">
   <div class="su-tabs-nav">

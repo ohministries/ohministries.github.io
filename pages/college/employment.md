@@ -40,7 +40,7 @@ Ouachita Ministries is a fast growing, Seventh-day Adventist self-supporting ins
 
 Ouachita Ministries was founded in 1988 and is located on four hundred and twenty-one acres of land towards North West of Amity, Arkansas, where the mild, invigorating climate, with moderately cool nights, is not only conducive to study, but also provides an environment for healthy living.
 
-Ouachita Hills College is one of two Ouachita Hills Ministries’ organizations whose mission is to provide a Christ-centered, character-oriented education, which equips students to be successful in their chosen profession and to be active soul winners for God. As a religious organization, we are looking for Seventh-day Adventist candidates who understand and are committed to the SDA mission and its counsel on Christian education.
+Ouachita Hills College is one of two Ouachita Hills Ministries’ organizations whose mission is to provide a Christ-centered, character-oriented education, which equips students to be successful in their chosen profession and to be active soul winners for God. As a religious organization, we are looking for Seventh-day Adventist employees who understand and are committed to the SDA mission and its counsel on Christian education.
 
 We encourage you to push your skills to the limit as you tackle the challenge of awakening young minds to the reality of their worth in Christ. Connect with students who are eager to serve God. Thrive in an environment where true education isn’t just talked about, it’s lived.
 

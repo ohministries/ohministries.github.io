@@ -5,8 +5,7 @@ date: 2016-02-11T16:20:28+00:00
 author: erinohmin
 layout: page
 guid: http://localhost:8080/wordpress/?page_id=211
-ohHeroPosition:
-  - 84.61538461538461
+ohHeroPosition: 50
 image: /uploads/images/OpenBook.jpg
 ---
 <div class="su-tabs su-tabs-style-default" data-active="1">

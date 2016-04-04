@@ -7,7 +7,7 @@ layout: page
 guid: http://localhost:8080/wordpress/?page_id=211
 ohHeroPosition:
   - 84.61538461538461
-image: /wp-content/uploads/2016/03/OpenBook.jpg
+image: /uploads/images/OpenBook.jpg
 ---
 <div class="su-tabs su-tabs-style-default" data-active="1">
   <div class="su-tabs-nav">

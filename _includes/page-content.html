@@ -5,7 +5,8 @@
   {% assign tabs = '' %}
 
   {% capture tabs %}
-    {% for candidate in site.pages | sort: "sort" %}
+    {% assign candidates = site.pages | sort: "sort" %}
+    {% for candidate in candidates %}
       {% if candidate.url contains needle %}
         <li class="tabs-title"><a href="#panel-{% increment tab-link %}">{{ candidate.title }}</a></li>
       {% endif %}
@@ -20,7 +21,8 @@
     </ul>
 
     {% capture panels %}
-      {% for candidate in site.pages | sort: "sort" %}
+      {% assign candidates = site.pages | sort: "sort" %}
+      {% for candidate in candidates %}
         {% if candidate.url contains needle %}
           <div class="tabs-panel" id="panel-{% increment tab-panel %}">
             {{ candidate.content | markdownify }}

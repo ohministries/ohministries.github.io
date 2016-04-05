@@ -46,14 +46,14 @@ We encourage you to push your skills to the limit as you tackle the challenge of
 
 Come and join our team!
 
-**Ouachita Hills College has the following positions open for the 2016-2017 school year:** 
+**Ouachita Hills College has the following positions open for the 2016-2017 school year:**  
 
-[English Instructor](/uploads/documents/JSEnglishInstructor.pdf)
-[Religion Instructor](/uploads/documents/JSReligionInstructor.pdf)
-[Bookkeeper/Industry Supervisor](/uploads/documents/JSBookkeeper.pdf)
-[Ladies' Dean](/uploads/documents/JSLadiesDean.pdf)
-Food Services Supervisor
-[Auto Repair Technician](/uploads/documents/JSAutoRepair.pdf)
-[Construction Manager](/uploads/documents/JSConstrMgr.pdf)
+[English Instructor](/uploads/documents/JSEnglishInstructor.pdf)  
+[Religion Instructor](/uploads/documents/JSReligionInstructor.pdf)  
+[Bookkeeper/Industry Supervisor](/uploads/documents/JSBookkeeper.pdf)  
+[Ladies' Dean](/uploads/documents/JSLadiesDean.pdf)  
+Food Services Supervisor  
+[Auto Repair Technician](/uploads/documents/JSAutoRepair.pdf)  
+[Construction Manager](/uploads/documents/JSConstrMgr.pdf)  
 
                                                                                                                     

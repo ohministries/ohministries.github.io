@@ -14,16 +14,13 @@ professional excellence in Christ&#8217;s strength and to give each student the 
 tools to reach the hearts and needs of children and youth around the world.
 
 **Department Objectives**
-1. Equip students to be ministers of education in various denominational venues, such as 
+
+* Equip students to be ministers of education in various denominational venues, such as 
 conference, self-supporting, or missions.
-
-2. Inform students as to beneficial methodology and tools for teaching in Christian schools 
+* Inform students as to beneficial methodology and tools for teaching in Christian schools 
 in the 21st century.
-
-3. Provide appropriate instruction, practice, and feedback in leasson planning and practice 
+* Provide appropriate instruction, practice, and feedback in leasson planning and practice 
 teaching.
-
-4. Introduce students to the unique dynamics of the Seventh-day Adventist classroom, especially 
+* Introduce students to the unique dynamics of the Seventh-day Adventist classroom, especially 
 in the multi-grade environment.
-
-5. Promote dedication and self-sacrifice as prerequisites to effective Christian teaching.
+* Promote dedication and self-sacrifice as prerequisites to effective Christian teaching.

@@ -1,5 +1,5 @@
 ---
-title: Degrees Options
+title: Degree Options
 layout: page
 sort: 1
 ---

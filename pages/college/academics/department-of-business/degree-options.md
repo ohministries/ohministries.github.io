@@ -1,5 +1,5 @@
 ---
-title: Degrees Offered
+title: Degrees Options
 layout: page
 sort: 1
 ---

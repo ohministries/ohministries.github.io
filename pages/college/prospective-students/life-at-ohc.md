@@ -1,13 +1,8 @@
 ---
-id: 17
 title: Life At OHC
-date: 2016-02-05T16:04:46+00:00
-author: erinohmin
 layout: page
-guid: http://localhost:8080/wordpress/?page_id=17
-ohHeroPosition:
-  - 74.37499523162842
-image: /wp-content/uploads/2016/03/Enlight1-4.jpg
+hero-position: 50
+hero-image: /uploads/image/Enlight1-4.jpg
 ---
 **At Ouachita Hills College, we know that true education means so much more than just 
 having strong academic programs.**

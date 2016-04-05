@@ -2,7 +2,7 @@
 title: College
 layout: page
 hero-image: /uploads/images/IMG_6126.jpg
-hero-position: 51.25
+hero-position: 75%
 thumbnail: /uploads/images/IMG_6126-150x150.jpg
 ---
 

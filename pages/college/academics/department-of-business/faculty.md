@@ -5,10 +5,10 @@ sort: 2
 ---
 
 Satya Ramella, Ph.D.  
-Department Chair
+*Department Chair*
                                     
 Magda Rodriguez, Ph.D.  
-Instructor
+*Instructor*
 
 Chris Miller, B.S.  
-Teaching Assistant
+*Teaching Assistant*

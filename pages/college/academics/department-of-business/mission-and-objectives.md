@@ -4,23 +4,23 @@ layout: page
 sort: 3
 ---
 
-## Mission
+#### Mission
 
 The mission of the Department of Business is to create, develop and transform ordinary students into extraordinary, 
 entrepreneurial and practical Christian business leaders through high academic standards, superior teaching, quality 
 research, significant service with the effective use of technology.
 
-## Vision
+#### Vision
 
 We are becoming the foremost Christian Business School in the region, known for entrepreneurship, good Christian 
 business practices, high ethical standards and significant community service.
 
-## Our Values
+#### Our Values
 
 Integration of faith, learning and practice, teaching excellence, research, team entrepreneurship, collaboration, 
 engagement, diversity, community outreach.
 
-## Goals and Direction
+#### Goals and Direction
 
 To fulfill the mission, the department
 

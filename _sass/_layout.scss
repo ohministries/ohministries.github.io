@@ -155,8 +155,9 @@ body {
 }
 
 .post-content {
-    max-width:35rem;
-    float:left;
+    width:35rem;
+    max-width:100%;
+    overflow:hidden;
 }
 
 

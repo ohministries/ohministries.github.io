@@ -158,3 +158,22 @@ body {
     max-width:35rem;
     float:left;
 }
+
+
+
+/**
+* Tabs
+*/
+
+.tabs-panel {
+    display:block;
+    visibility:hidden;
+    height:0;
+    padding:0;
+
+    &.is-active {
+        visibility:visible;
+        height:auto;
+        padding:1rem;
+    }
+}

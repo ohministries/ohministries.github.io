@@ -1,13 +1,8 @@
 ---
-id: 166
 title: History
-date: 2016-02-09T21:58:45+00:00
-author: erinohmin
 layout: page
-guid: http://localhost:8080/wordpress/?page_id=166
 ---
-**Our History**
-
+**Our History**  
 The roots of Ouachita Hills College stretch back about 30 years and find themselves 
 entwined in the formation of another supporting ministry college—Weimar. During the early 
 1970s, while Weimar was being planned and developed, Chester and Harriet Clark attended a 

@@ -1,3 +1,4 @@
+require 'bundler/setup'
 require 'html/proofer'
 # rake test
 desc "build and test website"

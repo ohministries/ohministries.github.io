@@ -1,5 +1,7 @@
 # ohministries.github.io
 
+![Travis CI status](https://travis-ci.org/ohministries/ohministries.github.io.svg?branch=master)
+
 Ouachita Hills Ministries Jekyll site
 
 ## Setting Up Local Development Environment

@@ -158,6 +158,11 @@ body {
     width:35rem;
     max-width:100%;
     overflow:hidden;
+
+    .full-width & {
+        clear:both;
+        width:auto;
+    }
 }
 
 

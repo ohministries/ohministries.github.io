@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
-<article class="post">
+
+{% assign classes = 'post' %}
+{% if page.full-width %}
+  {% assign classes = 'post full-width' %}
+{% endif %}
+
+<article class="{{ classes }}">
 
   {% include page-header.html %}
 

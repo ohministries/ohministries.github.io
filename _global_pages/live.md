@@ -2,6 +2,7 @@
 title: Live
 layout: page
 permalink: live
+full-width: true
 ---
 
 <div class='embed-container'>

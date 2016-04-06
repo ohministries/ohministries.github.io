@@ -20,6 +20,7 @@
   <p class="copyright">
     Copyright &#169; {{ 'now' | date: "%Y" }} {{ site.title }} |
     Forms by <a href="http://www.surveymoz.com/">SurveyMoz</a>
+    {% if jekyll.environment == "development" %} | DEV ENV{% endif %}
   </p>
 
 </footer>

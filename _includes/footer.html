@@ -9,11 +9,11 @@
     {% include nav-section-switcher.html %}
 
     {% if page.url contains '/academy' %}
-    {% include nav.html base_url='/pages/academy/' max_depth=4 disable_top_level_links=true %}
+      {% include nav.html base_url='/pages/academy/' max_depth=4 disable_top_level_links=true include_global_pages=true %}
     {% elsif page.url contains '/college' %}
-    {% include nav.html base_url='/pages/college/' max_depth=4 disable_top_level_links=true %}
+      {% include nav.html base_url='/pages/college/' max_depth=4 disable_top_level_links=true include_global_pages=true %}
     {% else %}
-    {% include nav.html base_url='/pages/' max_depth=3 redirect_max_depth=true %}
+      {% include nav.html base_url='/pages/' max_depth=3 redirect_max_depth=true include_global_pages=true %}
     {% endif %}
   </nav>
 

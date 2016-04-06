@@ -14,7 +14,7 @@ branch: master
 collections:
   news:
     output: false
-  global-pages:
+  global_pages:
     output: true
 sass:
   style: compressed

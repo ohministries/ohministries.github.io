@@ -1,4 +1,4 @@
-![Travis CI status](https://travis-ci.org/ohministries/ohministries.github.io.svg?branch=master)
+[![Travis CI status](https://travis-ci.org/ohministries/ohministries.github.io.svg?branch=master)](https://travis-ci.org/ohministries/ohministries.github.io)
 
 # ohministries.github.io
 

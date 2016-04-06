@@ -8,7 +8,7 @@
 # Site settings
 title: Ouachita Hills Ministries
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.ouachitahills.org" # the base hostname & protocol for your site
+url: "http://localhost:4000" # the base hostname & protocol for your site
 repo: ohministries/ohministries.github.io
 branch: master
 collections:
@@ -16,7 +16,5 @@ collections:
     output: false
   global_pages:
     output: true
-sass:
-  style: compressed
 gems:
 - jekyll-sitemap

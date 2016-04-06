@@ -9,17 +9,18 @@
     {% include nav-section-switcher.html %}
 
     {% if page.url contains '/academy' %}
-    {% include nav.html base_url='/pages/academy/' max_depth=4 disable_top_level_links=true %}
+      {% include nav.html base_url='/pages/academy/' max_depth=4 disable_top_level_links=true include_global_pages=true %}
     {% elsif page.url contains '/college' %}
-    {% include nav.html base_url='/pages/college/' max_depth=4 disable_top_level_links=true %}
+      {% include nav.html base_url='/pages/college/' max_depth=4 disable_top_level_links=true include_global_pages=true %}
     {% else %}
-    {% include nav.html base_url='/pages/' max_depth=3 redirect_max_depth=true %}
+      {% include nav.html base_url='/pages/' max_depth=3 disable_top_level_links=true redirect_max_depth=true include_global_pages=true %}
     {% endif %}
   </nav>
 
   <p class="copyright">
     Copyright &#169; {{ 'now' | date: "%Y" }} {{ site.title }} |
     Forms by <a href="http://www.surveymoz.com/">SurveyMoz</a>
+    {% if jekyll.environment == "development" %} | DEV ENV{% endif %}
   </p>
 
 </footer>

@@ -1,5 +1,11 @@
 {% comment %}
-Init call with base_url (optional), max_depth, disable_top_level_links (optional), and redirect_max_depth (optional).
+Parameters:
+
+- base_url (path, optional)
+- max_depth (int)
+- disable_top_level_links (bool, optional)
+- redirect_max_depth (bool, optional)
+- include_global_pages (bool, optional)
 
 redirect_max_depth = (bool) if true, redirect last level of links to first child of each page, if children exist.
 {% endcomment %}
@@ -16,7 +22,7 @@ redirect_max_depth = (bool) if true, redirect last level of links to first child
   {% assign current_lvl_url_length = 1 %}
 {% endif %}
 
-{% if include.disable_top_level_links and start_lvl == nil %}
+{% if start_lvl == nil %}
   {% assign start_lvl = current_lvl_url_length %}
 {% endif %}
 
@@ -69,7 +75,19 @@ redirect_max_depth = (bool) if true, redirect last level of links to first child
   {% endfor %}
 {% endcapture %}
 
+{% capture global_links %}
+{% if include.include_global_pages and start_lvl == current_lvl_url_length %}
+  {% assign global_pages = site.global_pages | sort: "sort" %}
+  {% for global_page in global_pages %}
+    <li class="page-link">
+      <a href='{{ global_page.url }}'>{{ global_page.title }}</a>
+    </li>
+  {% endfor %}
+{% endif %}
+{% endcapture %}
+
 {% assign links = links | strip %}
+{% assign global_links = global_links | strip %}
 {% if links.size > 0 %}
-<ul>{{ links }}</ul>
+<ul>{{ links }}{{ global_links }}</ul>
 {% endif %}

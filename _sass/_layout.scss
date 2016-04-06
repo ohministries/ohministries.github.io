@@ -152,9 +152,35 @@ body {
 
 .edit {
     margin-top: $spacing-unit-absolute;
+    display:inline-block;
 }
 
 .post-content {
-    max-width:35rem;
-    float:left;
+    width:35rem;
+    max-width:100%;
+    overflow:hidden;
+
+    .full-width & {
+        clear:both;
+        width:auto;
+    }
+}
+
+
+
+/**
+* Tabs
+*/
+
+.tabs-panel {
+    display:block;
+    visibility:hidden;
+    height:0;
+    padding:0;
+
+    &.is-active {
+        visibility:visible;
+        height:auto;
+        padding:1rem;
+    }
 }

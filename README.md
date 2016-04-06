@@ -1,5 +1,7 @@
 # ohministries.github.io
 
+![Travis CI status](https://travis-ci.org/ohministries/ohministries.github.io.svg?branch=master)
+
 Ouachita Hills Ministries Jekyll site
 
 ## Setting Up Local Development Environment
@@ -10,6 +12,7 @@ Ouachita Hills Ministries Jekyll site
 git clone https://github.com/ohministries/ohministries.github.io.git
 cd ohministries.github.io
 sudo gem install jekyll
+sudo gem install jekyll-sitemap
 jekyll serve --watch
 ```
 
@@ -25,6 +28,7 @@ Open `http://localhost:4000/` in a browser.
 
 - Git
 - Jekyll
+- `jekyll-sitemap` gem
 
 ## Editing Content
 

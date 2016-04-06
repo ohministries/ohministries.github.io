@@ -1,6 +1,6 @@
-# ohministries.github.io
-
 ![Travis CI status](https://travis-ci.org/ohministries/ohministries.github.io.svg?branch=master)
+
+# ohministries.github.io
 
 Ouachita Hills Ministries Jekyll site
 

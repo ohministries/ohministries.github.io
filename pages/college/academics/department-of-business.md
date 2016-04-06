@@ -7,7 +7,7 @@ hero-image: /uploads/images/IMG_4484-1393.jpg
 
 ### Welcome to the Department of Business at Ouachita Hills College!
 
-We in the business of equipping students for service as they grow academically and spiritually at Ouachita Hills.
+We are in the business of equipping students for service as they grow academically and spiritually at Ouachita Hills.
 
 The Christian Business Management Program gives students the opportunity to gain a broad set of 
 skills in administration and leadership. There is a strong emphasis on Christian business principles that 

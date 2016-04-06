@@ -1,0 +1,17 @@
+.desktop-calendar {
+  display:none;
+}
+
+.mobile-calendar {
+  height: 100vh;
+}
+
+@media screen and (min-width: $on-laptop) {
+  .desktop-calendar {
+    display:block;
+  }
+
+  .mobile-calendar {
+    display:none;
+  }
+}

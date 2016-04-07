@@ -5,3 +5,5 @@ script: bundle exec rake test
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+notifications:
+  slack: ouachita:h40tZKvgkZd1rHs2MU744Hgt

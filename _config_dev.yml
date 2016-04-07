@@ -19,3 +19,4 @@ collections:
 gems:
 - jekyll-sitemap
 exclude: [vendor]
+email: narthur@tutanota.com

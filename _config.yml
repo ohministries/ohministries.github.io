@@ -21,3 +21,4 @@ sass:
 gems:
 - jekyll-sitemap
 exclude: [vendor]
+email: registrar@ohc.org

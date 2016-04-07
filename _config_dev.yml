@@ -18,3 +18,4 @@ collections:
     output: true
 gems:
 - jekyll-sitemap
+exclude: [vendor]

@@ -20,3 +20,4 @@ sass:
   style: compressed
 gems:
 - jekyll-sitemap
+exclude: [vendor]

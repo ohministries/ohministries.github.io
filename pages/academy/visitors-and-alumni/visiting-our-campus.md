@@ -13,5 +13,5 @@ Saturday night activity.
 Visits are possible at other times of the year as well. Our guest rooms can be reserved 
 and meals are available for purchase in our dining hall.
 
-Please [contact us](fix this link) to make 
+Please [contact us](/pages/contact.html) to make 
 arrangements for your visit. We look forward to meeting you!

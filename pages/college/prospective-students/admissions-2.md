@@ -1,10 +1,6 @@
 ---
-id: 147
 title: Admissions
-date: 2016-02-09T17:58:02+00:00
-author: erinohmin
 layout: page
-guid: http://localhost:8080/wordpress/?page_id=147
 ---
 **Admission Process**
 

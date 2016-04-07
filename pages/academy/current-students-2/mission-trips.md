@@ -1,10 +1,6 @@
 ---
-id: 91
 title: Mission Trips
-date: 2016-02-07T21:43:51+00:00
-author: erinohmin
 layout: page
-guid: http://localhost:8080/wordpress/?page_id=91
 ---
 **Fall and Spring Mission Trips**
 

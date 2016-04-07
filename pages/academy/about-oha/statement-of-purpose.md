@@ -1,40 +1,6 @@
 ---
-id: 153
 title: Our Objectives
-date: 2016-02-09T20:46:33+00:00
-author: erinohmin
 layout: page
-guid: http://localhost:8080/wordpress/?page_id=153
-organizer:
-  - 
-places:
-  - 
-ev-from:
-  - 
-ev-from-h:
-  - 
-ev-from-m:
-  - 
-ev-to:
-  - 
-ev-to-h:
-  - 
-ev-to-m:
-  - 
-ev-repeat:
-  - 
-ev-repeat-every:
-  - 
-ev-repeat-option:
-  - 
-ev-until:
-  - 
-ev-end_count:
-  - 
-featured:
-  - 
-order:
-  - 
 ---
 **The objectives of Ouachita Hills Academy are to provide&#8230;**
 

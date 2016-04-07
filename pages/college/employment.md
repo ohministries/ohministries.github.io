@@ -1,40 +1,6 @@
 ---
-id: 35
 title: Employment
-date: 2016-02-05T16:04:33+00:00
-author: erinohmin
 layout: page
-guid: http://localhost:8080/wordpress/?page_id=35
-organizer:
-  - 
-places:
-  - 
-ev-from:
-  - 
-ev-from-h:
-  - 
-ev-from-m:
-  - 
-ev-to:
-  - 
-ev-to-h:
-  - 
-ev-to-m:
-  - 
-ev-repeat:
-  - 
-ev-repeat-every:
-  - 
-ev-repeat-option:
-  - 
-ev-until:
-  - 
-ev-end_count:
-  - 
-featured:
-  - 
-order:
-  - 
 ---
 Ouachita Hills Ministries is a fast growing, Seventh-day Adventist self-supporting institution that operates in accordance with the fundamental beliefs and practices of the Seventh-day Adventist Church. Ouachita Ministries, Inc. is member of Adventist-Laymen Services and Industries organization (ASI) and is recognized by the Arkansas-Louisiana Conference of Seventh-day Adventists as an integral part of the ministry and mission of the Arkansas-Louisiana Conference.
 

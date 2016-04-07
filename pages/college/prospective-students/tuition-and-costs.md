@@ -1,10 +1,6 @@
 ---
-id: 15
 title: Tuition and Costs
-date: 2016-02-05T16:06:54+00:00
-author: erinohmin
 layout: page
-guid: http://localhost:8080/wordpress/?page_id=15
 ---
 ### Tuition & Fees
 

@@ -1,10 +1,6 @@
 ---
-id: 118
 title: Forms and Documents
-date: 2016-02-08T20:08:10+00:00
-author: erinohmin
 layout: page
-guid: http://localhost:8080/wordpress/?page_id=118
 ---
 **Forms for New and Current Students**
 

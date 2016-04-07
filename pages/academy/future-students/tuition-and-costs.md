@@ -1,40 +1,6 @@
 ---
-id: 95
 title: Tuition and Costs
-date: 2016-02-07T21:46:39+00:00
-author: erinohmin
 layout: page
-guid: http://localhost:8080/wordpress/?page_id=95
-organizer:
-  - 
-places:
-  - 
-ev-from:
-  - 
-ev-from-h:
-  - 
-ev-from-m:
-  - 
-ev-to:
-  - 
-ev-to-h:
-  - 
-ev-to-m:
-  - 
-ev-repeat:
-  - 
-ev-repeat-every:
-  - 
-ev-repeat-option:
-  - 
-ev-until:
-  - 
-ev-end_count:
-  - 
-featured:
-  - 
-order:
-  - 
 ---
 
 ## Payment Schedule for Tuition, Room and Board

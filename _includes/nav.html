@@ -32,7 +32,11 @@ redirect_max_depth = (bool) if true, redirect last level of links to first child
   {% for node in nodes %}
     {% assign node_url_length = node.url | split: '/' | size | minus: 1 %}
     {% assign filename = node.url | split: '/' | last %}
-    {% if node_url_length == current_lvl_url_length and node.url contains lvl_base_url and filename != 'index.html' and filename contains 'html' %}
+    {% if node_url_length == current_lvl_url_length
+    and node.url contains lvl_base_url
+    and filename != 'index.html'
+    and filename contains 'html'
+    and node.exclude-from-nav != true %}
       {% capture subnav %}
         {% if include.max_depth > current_lvl_url_length | plus: 1 %}
           {% assign lvl_base_url = node.url | replace: '.html' | append: '/' %}

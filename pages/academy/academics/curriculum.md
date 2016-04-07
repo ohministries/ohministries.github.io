@@ -1,16 +1,10 @@
 ---
-id: 125
 title: Curriculum
-date: 2016-02-09T15:49:18+00:00
-author: erinohmin
 layout: page
-guid: http://localhost:8080/wordpress/?page_id=125
-ohHeroPosition:
-  - 90.83557540194364
-image: /wp-content/uploads/2016/03/BibleStudy1.jpg
+hero-position: 90%
+hero-image: /uploads/images/BibleStudy1.jpg
 ---
-**About Our Curriculum**
-
+**About Our Curriculum**  
 Ouachita Hills Academy offers a college preparatory curriculum with standard high school 
 classes for math, physcial and life sciences, English grammar and composition, and the 
 social sciences. Each year of study includes a required Bible class. All students will 
@@ -25,7 +19,7 @@ Preparation, Auto Mechanics, Clothing Construction, or Media. These courses prov
 theoretical knowledge to complement practical experience students gain from their vocational work assignments.
 
 Our course offerings differ in alternating years. Please see our 
-[Curriculum Scope and Sequence](/wp-content/uploads/2016/02/Curriculum-Scope-and-Sequence-OHA.pdf) 
+[Curriculum Scope and Sequence](/uploads/documents/Curriculum-Scope-and-Sequence-OHA.pdf) 
 for a detailed explanation.
 
 The college entrance test scores of OHA students over the last ten years have consistently 

@@ -7,7 +7,7 @@
   }
 
   a {
-    @extend %section-button;
+    @include section-button;
   }
 }
 
@@ -15,8 +15,38 @@
   text-decoration: none;
   display: inline-block;
 
-  @extend %section-button;
+  @include section-button;
 }
+
+
+
+/**
+ * Home Page Nav
+ */
+
+.start {
+  ul {
+    margin: 0;
+    overflow:hidden;
+    padding:5px;
+  }
+
+  li {
+    float:left;
+    list-style-type:none;
+    margin-right:1px;
+  }
+
+  a {
+    @include section-button;
+
+    &:hover {
+      box-shadow: inset 0 0 5px darken($grey-color-light, 15%);
+    }
+  }
+}
+
+
 
 /**
  * Mobile nav
@@ -39,7 +69,7 @@
     }
 
     a {
-      @extend %section-button;
+      @include section-button;
     }
 
     a, span {
@@ -99,7 +129,7 @@
 
     span, a {
       font-weight: normal;
-      @extend %section-button;
+      @include section-button;
     }
   }
 

@@ -78,7 +78,7 @@
   display:inline-block;
 }
 
-%section-button {
+@mixin section-button {
   @extend %button;
   @extend %section-background-color;
   color:$grey-color-light;

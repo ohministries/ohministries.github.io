@@ -35,5 +35,5 @@ and swimming in and around the Ouachita National Forest.
 Every student has a campus job in one of five main areas &#8211; Agriculture, Media, 
 Construction, Office Assisting, or Food Service. All of our students learn practical 
 skills and work ethic while helping to offset the cost of tuition and other expenses. 
-In addition, many students choose to work in our [canvassing programs](link to canvassing page), 
+In addition, many students choose to work in our [canvassing programs](/canvassing.html), 
 which can lower the cost of their education significantly.

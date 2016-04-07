@@ -51,7 +51,7 @@ Fourth year of attendance | $865/month in ten installments
 Scholarships are awarded to students based on financial need and availability of funds 
 from our donors. Eligible students should also demonstrate academic potential and good 
 conduct. You may download and complete our 
-[Worthy Student Scholarship form](/wp-content/uploads/2016/02/Worthy_Student_Application.pdf).
+[Worthy Student Scholarship form](/uploads/documents/Worthy_Student_Application.pdf).
 
 ## Dorm room reservation
 

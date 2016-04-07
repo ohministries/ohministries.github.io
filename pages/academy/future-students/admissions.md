@@ -38,8 +38,8 @@ order:
 ---
 **How to Apply**
 
-  1. Download the [OHA Student Application](/wp-content/uploads/2016/02/OHA-Application-2016-2017.pdf) 
-  form and [OHA Student Handbook](/wp-content/uploads/2016/02/OHA-2015-2018-Handbook-2.pdf).
+  1. Download the [OHA Student Application](/uploads/documents/OHA-Application-2016-2017.pdf) 
+  form and [OHA Student Handbook](/uploads/documents/OHA-2015-2018-Handbook-2.pdf).
   2. Follow all instructions for completing the Application Form. Applications cannot be 
   processed until all of the required information has been received.
   3. Read the OHA Student Handbook and sign your application.

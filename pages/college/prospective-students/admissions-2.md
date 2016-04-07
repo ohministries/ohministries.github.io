@@ -45,7 +45,7 @@ work.
 **How to Apply**
   
 1. Complete our online application form, or download and complete our paper 
-[application form](/wp-content/uploads/2016/02/OHC-Student-Application.pdf). 
+[application form](/uploads/documents/OHC-Student-Application.pdf). 
 There is a $25.00 processing fees for all paper applications, which must be remitted along 
 with the completed application.
 
@@ -53,12 +53,12 @@ with the completed application.
  pastor, one of your teachers, and one from an employer. These should be submitted 
  directly to Ouachita Hills College by the person writing the reference. They may complete
   our online reference form, or you may download and have them complete our
-   [paper reference form](/wp-content/uploads/2016/02/OHC-Student-References-Form.pdf)
+   [paper reference form](/uploads/documents/OHC-Student-References-Form.pdf)
    , which they must submit directly by mail.
 
 3. Have all official transcripts from all schools (secondary, college or university) sent 
 directly from each school to Ouachita Hills College. You may use our
-[transcript request form](/wp-content/uploads/2016/02/OHC-Transcript-Request-Form.pdf)
+[transcript request form](/uploads/documents/OHC-Transcript-Request-Form.pdf)
  if needed.
 
 Any documents submitted by mail should be sent to:

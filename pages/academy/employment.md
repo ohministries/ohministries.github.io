@@ -64,4 +64,4 @@ For more information, call (870) 342-6210 or email info@ouachitahillsacademy.org
 
 If you are interested in applying for any of the openings, please complete and submit our OHA Staff Pre-Application. (suggestions for form preparation)
 
-[See Ouachita Hills College openings...](http://localhost:8080/wordpress/sample-page/employment/)
+[See Ouachita Hills College openings...](http://localhost:8080/wordpress/sample-page/employment.html)

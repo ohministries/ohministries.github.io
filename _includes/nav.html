@@ -55,7 +55,7 @@ redirect_max_depth = (bool) if true, redirect last level of links to first child
       {% assign li_classes = 'page-link' %}
       {% assign element = 'a' %}
       {% if subnav.size > 0 %}
-        {% assign li_classes = 'page-link has-children' %}
+        {% assign li_classes = li_classes | append: ' has-children' %}
         {% if include.disable_top_level_links and start_lvl == current_lvl_url_length %}
           {% assign element = 'span' %}
           {% assign extra_atts = 'tabindex="0"' %}

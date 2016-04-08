@@ -108,6 +108,7 @@
 
     span, a {
       font-weight: normal;
+      letter-spacing: -.02rem;
       @include section-button;
     }
   }

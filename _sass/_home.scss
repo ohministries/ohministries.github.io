@@ -10,10 +10,14 @@ html {
   display:flex;
   min-height:100%;
   text-align:center;
-}
 
-.home img {
-  width:15rem;
+  img {
+    width: 15rem;
+  }
+
+  h1 {
+    font-size:2rem;
+  }
 }
 
 .wrapper {
@@ -30,6 +34,37 @@ html {
 .start {
   padding: $spacing-unit-absolute;
 }
+
+
+
+/**
+ * Home Page Nav
+ */
+
+.start {
+  ul {
+    margin: 0;
+    overflow:hidden;
+    padding:5px;
+  }
+
+  li {
+    float:left;
+    list-style-type:none;
+    margin-right:1px;
+  }
+
+  a {
+    @include section-button;
+
+    &:hover {
+      box-shadow: inset 0 0 5px darken($grey-color-light, 15%);
+    }
+  }
+}
+
+
+
 
 .ticker p {
   margin-bottom:0;

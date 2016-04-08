@@ -46,16 +46,20 @@ html {
     margin: 0;
     overflow:hidden;
     padding:5px;
+    display:table;
+    margin:0 auto;
   }
 
   li {
-    float:left;
     list-style-type:none;
-    margin-right:1px;
+    margin:.2rem;
+    display:block;
   }
 
   a {
     @include section-button;
+
+    width:100%;
 
     &:hover {
       box-shadow: inset 0 0 5px darken($grey-color-light, 15%);

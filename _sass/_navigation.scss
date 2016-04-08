@@ -55,6 +55,11 @@
       font-weight: bold;
     }
 
+    li.active-page > a {
+      background-color:$grey-color-light;
+      @extend %section-text-color;
+    }
+
     ul {
       margin: 0;
     }
@@ -64,6 +69,8 @@
     }
   }
 }
+
+
 
 /**
  * Desktop nav
@@ -107,6 +114,11 @@
 
   .has-children {
     @extend %focus-menu;
+  }
+
+  li.active-parent > span {
+    background-color:$grey-color-light;
+    @extend %section-text-color;
   }
 }
 

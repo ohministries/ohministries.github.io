@@ -3,8 +3,16 @@
  */
 
 jQuery(document).ready(function($) {
+    /* Init variables */
 
     var body = $('body');
+
+    /* Prevent nav flash */
+
+    body.addClass('preload');
+    $(window).load(function() {
+        $("body").removeClass("preload");
+    });
 
     /* Initialize ZURB Foundation */
 
@@ -69,6 +77,7 @@ jQuery(document).ready(function($) {
         $('#nav > ul > li').each(function() {
             needed += $(this).outerWidth(true);
         });
+
         return needed;
     };
 

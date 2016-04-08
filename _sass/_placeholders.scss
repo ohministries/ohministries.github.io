@@ -28,7 +28,7 @@
 
   ul {
     visibility:hidden;
-    transition: visibility 0.1s;
+    transition: visibility 0s ease .1s;
     position:absolute;
     min-width:100%;
     margin:0;

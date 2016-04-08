@@ -78,17 +78,6 @@
   display:inline-block;
 }
 
-@mixin section-button {
-  @extend %button;
-  @extend %section-background-color;
-  color:$grey-color-light;
-
-  &:hover, &:focus {
-    background: $grey-color-light;
-    @extend %section-text-color;
-  }
-}
-
 %section-button-primary {
   @extend %button;
   @extend %section-text-color;

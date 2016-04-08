@@ -67,7 +67,7 @@ jQuery(document).ready(function($) {
 
         var needed = $('#nav').find('.section-switcher').width();
         $('#nav > ul > li').each(function() {
-            needed += $(this).width();
+            needed += $(this).outerWidth(true);
         });
         return needed;
     };

@@ -1,9 +1,15 @@
 .entry {
+  margin-bottom: $spacing-unit-absolute;
+
   .thumbnail {
     width:20vw;
     max-width:150px;
     float:left;
     margin-right:$spacing-unit-absolute;
+  }
+
+  h2 {
+    margin-bottom:1rem;
   }
 
   p {

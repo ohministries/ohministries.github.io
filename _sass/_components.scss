@@ -1,3 +1,30 @@
 .button {
   text-decoration: none;
 }
+
+
+
+/**
+ * Recent News
+ */
+
+.recent-news {
+  overflow:hidden;
+
+  .item {
+    float:left;
+    text-align:center;
+    width:170px;
+  }
+
+  .thumbnail, .more {
+    width:150px;
+    height:150px;
+    line-height:150px;
+    margin-top:3px;
+  }
+
+  .title {
+    display:block;
+  }
+}

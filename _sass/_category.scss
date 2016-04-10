@@ -1,0 +1,12 @@
+.entry {
+  .thumbnail {
+    width:20vw;
+    max-width:150px;
+    float:left;
+    margin-right:$spacing-unit-absolute;
+  }
+
+  p {
+    overflow:hidden;
+  }
+}

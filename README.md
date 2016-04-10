@@ -52,3 +52,5 @@ and pages includes:
 * `hero-position` - number between 0 and 100 specifying how the hero image should be positioned in its frame
 * `thumbnail` - url to small image to be used as thumbnail in listings
 * `exclude-from-nav` - Bool. If set to true, page is hidden from navigation, but is still otherwise accessible.
+* `images` - list of image urls to be pulled into an image gallery on the page
+* `redirect` - url page should instantly redirect to

@@ -11,6 +11,7 @@ $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+$max-content-width: 35rem;
 
 $touch-target-size: 10mm;
 $button-height:2rem;
@@ -75,3 +76,4 @@ $on-laptop:        800px;
 @import "home";
 @import "search";
 @import "calendar";
+@import "category";

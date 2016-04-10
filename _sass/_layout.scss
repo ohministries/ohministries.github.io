@@ -160,7 +160,7 @@ body {
 }
 
 .post-content {
-    width:35rem;
+    width:$max-content-width;
     max-width:100%;
     overflow:hidden;
 

@@ -5,15 +5,18 @@
   {% if categories contains include.category %}
   <a class="item" href="{{ post.url }}">
     {% if post.thumbnail %}
-    <img class="thumbnail" src="{{ post.thumbnail }}" alt="thumbnail" />
+    <span class="thumbnail" style="background-image:url('{{post.thumbnail}}')"></span>
     {% else %}
-    <span class="fa fa-camera-retro thumbnail"></span>
+    <span class="thumbnail fa fa-camera-retro"></span>
     {% endif %}
     <span class="title">{{ post.title }}</span>
   </a>
   {% endif %}
   {% endfor %}
 
-  <a class="item more" href="/categories/{{ include.category | downcase }}.html">More news...</a>
+  <a class="item more" href="/categories/{{ include.category | downcase }}.html">
+    <span class="thumbnail fa fa-ellipsis-h"></span>
+    <span class="title">More news...</span>
+  </a>
 
 </div>

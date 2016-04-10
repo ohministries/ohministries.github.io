@@ -9,23 +9,35 @@
  */
 
 .recent-news {
-  overflow:hidden;
+  overflow-x:scroll;
+  display:flex;
+  height: 220px;
 
   .item {
-    float:left;
     text-align:center;
-    width:170px;
+    height:190px;
+    position:relative;
   }
 
-  .thumbnail, .more {
+  .thumbnail {
     width:150px;
     height:150px;
+    background-size:cover;
+    background-position:50% 50%;
     line-height:150px;
-    margin-top:3px;
+    margin:.25rem;
+    flex:none;
+  }
+
+  .thumbnail.fa {
+    font-size:$base-font-size * 2;
   }
 
   .title {
     display:block;
+    position:absolute;
+    bottom:0;
+    width:100%;
   }
 }
 

@@ -142,15 +142,19 @@ body {
  * Post & page layouts
  */
 
-.post-header {
+.content-header {
     margin-bottom: $spacing-unit-absolute;
     margin-right: $spacing-unit-relative;
     display:table;
     float:left;
     max-width:17.5rem;
 
-    h1 {
+    .page & h1 {
         padding-left:.5rem;
+    }
+
+    .post & h1 {
+        margin-bottom:0;
     }
 }
 
@@ -159,7 +163,7 @@ body {
     display:inline-block;
 }
 
-.post-content {
+.content {
     width:$max-content-width;
     max-width:100%;
     overflow:hidden;

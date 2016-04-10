@@ -2,16 +2,16 @@
 layout: default
 ---
 
-{% assign classes = 'post' %}
+{% assign classes = 'page' %}
 {% if page.full-width %}
-  {% assign classes = 'post full-width' %}
+  {% assign classes = classes | append: ' full-width' %}
 {% endif %}
 
 <article class="{{ classes }}">
 
   {% include page-header.html %}
 
-  <div class="post-content">
+  <div class="content">
     {% include page-content.html %}
   </div>
 

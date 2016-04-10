@@ -1,0 +1,19 @@
+<div class="recent-news">
+
+  {% for post in site.posts %}
+  {% assign categories = post.categories | downcase %}
+  {% if categories contains include.category %}
+  <a class="item" href="{{ post.url }}">
+    {% if post.thumbnail %}
+    <img class="thumbnail" src="{{ post.thumbnail }}" alt="thumbnail" />
+    {% else %}
+    <span class="fa fa-camera-retro thumbnail"></span>
+    {% endif %}
+    <span class="title">{{ post.title }}</span>
+  </a>
+  {% endif %}
+  {% endfor %}
+
+  <a class="item more" href="/categories/{{ include.category | downcase }}.html">More news...</a>
+
+</div>

@@ -28,3 +28,19 @@
     display:block;
   }
 }
+
+
+
+/**
+ * Gallery
+ */
+
+.gallery {
+  .thumbnail {
+    width:150px;
+    height:150px;
+    background-size:cover;
+    background-position:50% 50%;
+    margin:.2rem;
+  }
+}

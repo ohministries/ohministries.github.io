@@ -1,0 +1,8 @@
+{% if page.images %}
+<div class="gallery">
+  {% for image in page.images %}
+  <a href="{{ image }}" class="thumbnail" style="background-image:url('{{ image }}')" data-lightbox="gallery"></a>
+  {% endfor %}
+</div>
+<script type="text/javascript" src="/javascript/vendor/lightbox2/js/lightbox.min.js"></script>
+{% endif %}

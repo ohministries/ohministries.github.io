@@ -35,6 +35,7 @@
     <div class="tabs-content" data-tabs-content="page-tabs">
       <div class="tabs-panel is-active" id="panel-home">
         {{ page.content | markdownify }}
+        {% include image-gallery.html %}
         {% include edit-button.html page=page %}
       </div>
       {{ panels }}

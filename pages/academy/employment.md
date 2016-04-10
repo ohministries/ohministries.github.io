@@ -1,6 +1,7 @@
 ---
 title: Employment
 layout: page
+sort: 6
 ---
 Are you searching for a career that infuses your life with aspiration and intention? Push 
 your skills to the limit as you tackle the challenge of awakening young minds to the reality 

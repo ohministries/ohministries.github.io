@@ -26,4 +26,6 @@
   <script type="text/javascript" src="/css/vendor/foundation-6/js/foundation.min.js"></script>
   <script type="text/javascript" src="/javascript/vendor/unslider-master/src/js/unslider.js"></script>
   <script type="text/javascript" src="/javascript/main.js"></script>
+
+  {% if page.redirect %}<script type="text/javascript">window.location.replace('{{page.redirect}}');</script>{% endif %}
 </head>

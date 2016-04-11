@@ -2,6 +2,8 @@
 title: Calendar
 layout: page
 full-width: true
+exclude-from-nav: true
+permalink: /calendar/
 ---
 
 <div class='embed-container desktop-calendar'>

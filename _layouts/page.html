@@ -13,6 +13,10 @@ layout: default
 
   <div class="content">
     {% include page-content.html %}
+
+    {% if page.recent-news %}
+      {% include recent-news.html category=page.recent-news %}
+    {% endif %}
   </div>
 
 </article>

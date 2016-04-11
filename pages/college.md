@@ -4,7 +4,6 @@ layout: page
 hero-image: /uploads/images/IMG_6126.jpg
 hero-position: 75%
 thumbnail: /uploads/images/IMG_6126-150x150.jpg
-permalink: /college/
 ---
 
 Ouachita Hills College is a self-supporting school located in southwestern Arkansas.  Our practical approach to true 

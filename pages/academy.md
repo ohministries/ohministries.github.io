@@ -3,7 +3,6 @@ title: Academy
 layout: page
 hero-position: 60%
 hero-image: /uploads/images/IMG_4016.jpg
-permalink: /academy/
 ---
 Ouachita Hills Academy is a private boarding school for students in grades 9 through 12. 
 We offer a rigorous academic curriculum combined with focused vocational training and music 

@@ -15,9 +15,10 @@ The Religion Department offers a four-year training program for both theology an
 studies majors, with each student experiencing a 12-week ministerial practicum during their 
 last year before graduation. The program offers classes that give our students a good foundation 
 for varied ministry opportunities.  It helps the student understand current issues facing our 
-church & mission and gain practical experience in various types of personal and public ministry.  
+church & mission and gain practical experience in various types of personal and public ministry. 
+
 We also offer a two-year personal evangelism training program especially focusing on Bible work 
-and literature evangelism.  We are seeking to make our classes is practical, substantive, and 
+and literature evangelism.  We are seeking to make our classes practical, substantive, and 
 thorough. 
 
 Our Theology, Biblical Studies and Personal Evangelism graduates have done much with their 

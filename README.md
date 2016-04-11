@@ -24,6 +24,11 @@ Open `http://localhost:4000/` in a browser.
 2. Run `jekyll serve --watch`. (Long build times getting you down? Try adding the `--incremental` option.)
 3. Open `http://localhost:4000/` in a browser.
 
+### Work Flow Best Practices
+
+If possible, work locally using the 
+[feature branch workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow).
+
 ### Dev Dependencies
 
 - Git

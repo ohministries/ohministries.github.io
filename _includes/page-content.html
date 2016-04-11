@@ -41,10 +41,10 @@
       {{ panels }}
     </div>
   {% else %}
-    {{ page.content | markdownify }}
+    {{ content }}
     {% include edit-button.html page=page %}
   {% endif %}
 {% else %}
-  {{ page.content | markdownify }}
+  {{ content }}
   {% include edit-button.html page=page %}
 {% endif %}

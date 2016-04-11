@@ -8,9 +8,9 @@ Ouachita Hills Ministries Jekyll site
 
 ### First-time install
 
+Clone the repo onto your computer, `cd` into that directory in terminal, and then run the following commands:
+
 ```
-git clone https://github.com/ohministries/ohministries.github.io.git
-cd ohministries.github.io
 sudo gem install jekyll
 sudo gem install jekyll-sitemap
 jekyll serve --watch

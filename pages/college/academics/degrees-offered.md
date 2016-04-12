@@ -15,7 +15,8 @@ Bachelor of Arts in Theology
 Bachelor of Arts in Christian Business Management  
 
 Associate of Arts in Christian General Studies  
-Associate of Arts in Personal Evangelism  
+Associate of Arts in Personal Evangelism 
+Associate of Arts in Christian Business Management
 
 In addition, we are able to offer the first two years of pre-professional study, suitable 
 for transfer to pre-med or allied health programs.

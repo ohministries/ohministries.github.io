@@ -1,8 +1,8 @@
 ---
 title: Vocational Courses
 layout: page
-hero-position: 65%
-hero-image: /uploads/images/IMG_4456.jpg
+hero-position: 73%
+hero-image: /uploads/images/IMG_4469.jpg
 ---
 **Our Vocational Work Education Programs**  
 Ouachita Hills Academy seeks to develop well-rounded students with strong life skills. 

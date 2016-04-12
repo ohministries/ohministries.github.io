@@ -24,6 +24,14 @@ Open `http://localhost:4000/` in a browser.
 2. Run `jekyll serve --watch`. (Long build times getting you down? Try adding the `--incremental` option.)
 3. Open `http://localhost:4000/` in a browser.
 
+### Committing changes
+
+```
+git pull origin master
+git commit -a -m 'COMMIT MESSAGE'
+git push origin master
+```
+
 ### Work Flow Best Practices
 
 If possible, work locally using the 

@@ -1,6 +1,8 @@
 ---
 title: Employment
 layout: page
+hero-image: /uploads/images/IMG_3737.jpg
+hero-position: 45%
 sort: 6
 ---
 Are you searching for a career that infuses your life with aspiration and intention? Push 

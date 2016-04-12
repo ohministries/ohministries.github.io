@@ -24,6 +24,14 @@ Open `http://localhost:4000/` in a browser.
 2. Run `jekyll serve --watch`. (Long build times getting you down? Try adding the `--incremental` option.)
 3. Open `http://localhost:4000/` in a browser.
 
+### Committing changes
+
+```
+git pull origin master
+git commit -a -m 'COMMIT MESSAGE'
+git push origin master
+```
+
 ### Work Flow Best Practices
 
 If possible, work locally using the 
@@ -59,3 +67,14 @@ and pages includes:
 * `exclude-from-nav` - Bool. If set to true, page is hidden from navigation, but is still otherwise accessible.
 * `images` - list of image urls to be pulled into an image gallery on the page
 * `redirect` - url page should instantly redirect to
+
+## Resources
+
+### Markdown
+
+- [Markdown syntax](http://daringfireball.net/projects/markdown/syntax)
+- [Markdown tables syntax](https://help.github.com/articles/organizing-information-with-tables/)
+
+### GIT
+
+- [GIT Book](https://git-scm.com/book/en/v2)

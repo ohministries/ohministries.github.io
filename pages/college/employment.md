@@ -2,6 +2,8 @@
 title: Employment
 layout: page
 sort: 6
+hero-image: /uploads/images/IMG_3737.jpg
+hero-position: 45%
 ---
 Ouachita Hills Ministries is a fast growing, Seventh-day Adventist self-supporting institution 
 that operates in accordance with the fundamental beliefs and practices of the Seventh-day 

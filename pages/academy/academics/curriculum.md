@@ -2,7 +2,7 @@
 title: Curriculum
 layout: page
 hero-position: 90%
-hero-image: /uploads/images/BibleStudy1.jpg
+hero-image: /uploads/images/BibleStudy1-1024x769.jpg
 ---
 **About Our Curriculum**  
 Ouachita Hills Academy offers a college preparatory curriculum with standard high school 

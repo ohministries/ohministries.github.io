@@ -2,7 +2,7 @@
 title: Department of Health and Life Sciences
 layout: page
 hero-position: 50
-hero-image: /uploads/images/BioImageGeneral.jpg
+hero-image: /uploads/images/BioImageGeneral-1024x576.jpg
 ---
 ##### Welcome to the Department of Health and Life Sciences!
 

@@ -2,7 +2,7 @@
 title: Department of Religion
 layout: page
 hero-position: 50
-hero-image: /uploads/images/bible-close-up_MJUN_BDd.jpg
+hero-image: /uploads/images/bible-close-up_MJUN_BDd-1024x683.jpg
 ---
 **Welcome to the Department of Religion at Ouachita Hills College!**
 

@@ -2,7 +2,7 @@
 title: Music Programs
 layout: page
 hero-position: 40%
-hero-image: /uploads/images/A1P1081-2.jpg
+hero-image: /uploads/images/A1P1081-2-1024x783.jpg
 ---
 **Music at OHA**  
 Music is a big part of life at OHA, both as in-reach and outreach. Because godly music has 

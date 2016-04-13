@@ -2,7 +2,7 @@
 title: Our History
 layout: page
 hero-position: 57%
-hero-image: /uploads/images/IMG_3453.jpg
+hero-image: /uploads/images/IMG_3453-1024x768.jpg
 ---
 **Our History**  
 Ouachita Hills Academy opened its doors for the first time in the fall of 1988 on a

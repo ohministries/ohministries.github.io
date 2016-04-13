@@ -2,7 +2,7 @@
 title: Life at OHA
 layout: page
 hero-position: 46.875%
-hero-image: /uploads/images/IMG_4440.jpg
+hero-image: /uploads/images/IMG_4440-1024x683.jpg
 ---
 **Spiritual Growth**  
 There's a lot more to life at OHA than academics and practical training. Everything 

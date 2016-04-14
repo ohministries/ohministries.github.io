@@ -2,7 +2,7 @@
 title: Life At OHC
 layout: page
 hero-position: 62%
-hero-image: /uploads/images/Enlight1-4.jpg
+hero-image: /uploads/images/Enlight1-4-1024x786.jpg
 ---
 ##### At Ouachita Hills College, we know that true education means so much more than just having strong academic programs.
 

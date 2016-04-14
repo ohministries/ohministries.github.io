@@ -2,7 +2,7 @@
 title: Department of Education
 layout: page
 hero-position: 70%
-hero-image: /uploads/images/OpenBook.jpg
+hero-image: /uploads/images/OpenBook-1024x380.jpg
 ---
 
   

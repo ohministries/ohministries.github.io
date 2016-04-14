@@ -2,7 +2,7 @@
 title: Department of Business
 layout: page
 hero-position: 50
-hero-image: /uploads/images/IMG_4484-1393.jpg
+hero-image: /uploads/images/IMG_4484-1393-1024x683.jpg
 ---
 
 ### Welcome to the Department of Business at Ouachita Hills College!

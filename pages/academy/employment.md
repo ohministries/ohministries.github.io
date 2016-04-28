@@ -17,7 +17,6 @@ Strings/Orchestra Conductor
 Choir Director  
 Auto Repair Technician  
 Construction Manager  
-Bookkeeper  
 Girls' Dean  
 Food Services Supervisor  
 IT Supervisor  

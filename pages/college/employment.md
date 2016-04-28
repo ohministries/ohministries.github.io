@@ -42,4 +42,6 @@ Food Services Supervisor
 
  If you are interested in any of the listed positions, you may complete our online [Employment Application](http://www.surveymoz.com/s/VFKEU/)
  
- For more information, call (870-342-6210) or email us (info@ohc.org).                                                                                                                   
+ For more information, call (870-342-6210) or email us (info@ohc.org).
+ 
+ [See employment opportunities for Ouachita Hills Academy](http://www.ouachitahills.org/pages/academy/employment.html)

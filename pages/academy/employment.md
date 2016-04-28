@@ -21,7 +21,6 @@ Bookkeeper
 Girls' Dean  
 Food Services Supervisor  
 IT Supervisor  
-Housekeeping Supervisor  
 
 For more information, call (870) 342-6210 or email info@ouachitahillsacademy.org.
 

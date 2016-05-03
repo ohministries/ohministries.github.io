@@ -6,7 +6,7 @@ exclude-from-nav: true
 permalink: /calendar/
 ---
 
-[OHA Academic Calendar 2016-1017, with Daily Scedule](/uploads/docmuments/OHACals-Academic-Daily.pdf)
+[OHA Academic Calendar 2016-1017, with Daily Scedule](ohministries.github.io/uploads/documents/OHACals-Academic-Daily.pdf)
 
 
 <div class='embed-container desktop-calendar'>

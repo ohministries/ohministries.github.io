@@ -2,6 +2,8 @@
 title: Canvassing
 layout: page
 sort: 3
+hero-image: /uploads/images/Cavassing Danny.jpg
+hero-position: 20%
 ---
 #### Join a canvassing team and reach communities for Christ!
 

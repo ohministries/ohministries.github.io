@@ -1,6 +1,8 @@
 ---
 title: Employment
 layout: page
+hero-image: /uploads/images/IMG_3737.jpg
+hero-position: 45%
 sort: 6
 ---
 Are you searching for a career that infuses your life with aspiration and intention? Push 
@@ -15,11 +17,9 @@ Strings/Orchestra Conductor
 Choir Director  
 Auto Repair Technician  
 Construction Manager  
-Bookkeeper  
 Girls' Dean  
 Food Services Supervisor  
 IT Supervisor  
-Housekeeping Supervisor  
 
 For more information, call (870) 342-6210 or email info@ouachitahillsacademy.org.
 

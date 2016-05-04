@@ -2,6 +2,8 @@
 title: Employment
 layout: page
 sort: 6
+hero-image: /uploads/images/IMG_3737.jpg
+hero-position: 45%
 ---
 Ouachita Hills Ministries is a fast growing, Seventh-day Adventist self-supporting institution 
 that operates in accordance with the fundamental beliefs and practices of the Seventh-day 
@@ -40,4 +42,6 @@ Food Services Supervisor
 
  If you are interested in any of the listed positions, you may complete our online [Employment Application](http://www.surveymoz.com/s/VFKEU/)
  
- For more information, call (870-342-6210) or email us (info@ohc.org).                                                                                                                   
+ For more information, call (870-342-6210) or email us (info@ohc.org).
+ 
+ [See employment opportunities for Ouachita Hills Academy](http://www.ouachitahills.org/pages/academy/employment.html)

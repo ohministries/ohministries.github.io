@@ -38,7 +38,7 @@ redirect_max_depth = (bool) if true, redirect last level of links to first child
     and filename contains 'html'
     and node.exclude-from-nav != true %}
       {% capture subnav %}
-        {% if include.max_depth > current_lvl_url_length | plus: 1 %}
+        {% if include.max_depth > current_lvl_url_length | plus: 1 or include.max_depth == nil %}
           {% assign lvl_base_url = node.url | replace: '.html' | append: '/' %}
 
           {% comment %} Include can access parent state; hence no variables passed explicitly: {% endcomment %}

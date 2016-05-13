@@ -8,7 +8,7 @@ Satya Ramella, Ph.D.
 *Department Chair*
                                     
 Magda Rodriguez, Ph.D.  
-*Instructor*
+*Instructor and OHC President*
 
 Chris Miller, B.S.  
 *Teaching Assistant*

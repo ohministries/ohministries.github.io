@@ -12,15 +12,28 @@
     {% assign page_base_url = page_base_identifier | append: '.html' %}
     {% assign page_base_path = page_base_identifier | append: '/' %}
 
+    {% assign is_section_home = false %}
+    {% if page.url == page_base_url %}
+      {% assign is_section_home = true %}
+    {% endif %}
+
     {% for candidate in site.pages %}
       {% if candidate.url contains page_base_url %}
         {% assign parent=candidate %}
       {% endif %}
     {% endfor %}
 
-    <h1><a href="{{page_base_url}}">{{ parent.title }}</a></h1>
+    <h1>{{ parent.title }}</h1>
 
-    <div class="page-nav">{% include nav.html base_url=page_base_path %}</div>
+    <div class="page-nav">
+      {% assign classes = '' %}
+      {% if is_section_home %}
+        {% assign classes = " class='active-page'" %}
+      {% endif %}
+
+      <li{{classes}}><a href="{{page_base_url}}">About</a></li>
+      {% include nav.html base_url=page_base_path max_depth=4 only_return_items=true %}
+    </div>
 
   {% else %}
 

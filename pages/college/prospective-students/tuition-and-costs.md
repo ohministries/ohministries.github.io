@@ -1,6 +1,7 @@
 ---
 title: Tuition and Costs
 layout: page
+sort: 3
 ---
 ### Tuition & Fees
 

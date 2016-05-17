@@ -1,6 +1,7 @@
 ---
 title: Admissions
 layout: page
+sort: 2
 ---
 
 **General Admission Requirements**  
@@ -14,7 +15,8 @@ American College Test (ACT) or a minimum of 400 on each individual score on the 
 Aptitude Test (SAT).
 
 All students are expected to uphold the policies and standards of Ouachita Hills College as
-a Seventh-day Adventist institution.
+a Seventh-day Adventist institution. For more information about our policies and standards,
+please download our [student handbook](/uploads/documents/Handbook2015-17.pdf).
 
 OHC reserves the right to deny admission based on its inability to meet the student’s educational
 needs and objectives.

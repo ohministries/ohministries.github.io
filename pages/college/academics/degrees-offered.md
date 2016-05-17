@@ -3,6 +3,7 @@ title: Degrees Offered
 layout: page
 hero-image: /uploads/images/IMG_0085.jpg
 hero-position: 13%
+sort: 1
 ---
 At Ouachita Hills College, our goal is for students to be immersed in the Word of God while
 preparing for their life work. Each of our degrees is built on a core curriculum that

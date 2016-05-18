@@ -13,7 +13,8 @@ diploma in my hands." - OHA Senior
 "To Walk by faith and not by sight" is the aim of the 2015-2016 Senior class of Ouachita Hills Academy. Graduation is coming up so here 
 are some details about graduation weekend. 
 
-- Graduation Speaker: Pastor Baute
+Graduation Speaker: Pastor Baute
+
 - Friday,   May 27 at 7:00 PM - Vespers by Pastor Baute
 - Saturday, May 28 at 9:15 AM - Worship Service and Sabbath School
 - Saturday, May 28 at 3:30 PM - Musical Program

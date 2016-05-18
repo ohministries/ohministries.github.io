@@ -10,7 +10,7 @@ hero-position: 50%
 but have learned to trust God in any situation. I'm graduating with a sense of determination and I can't wait to get my 
 diploma in my hands." - OHA Senior
 
-"To Walk by faith and not by sight" is the aim of the 2015-2016 Senior class of Ouachita Hills Academy. Graduation is coming up so here 
+"To walk by faith and not by sight" is the aim of the 2016 Senior Class of Ouachita Hills Academy. Graduation is coming up so here 
 are some details about graduation weekend. 
 
 Graduation Speaker: Pastor Baute
@@ -23,4 +23,4 @@ Graduation Speaker: Pastor Baute
 
 All events will be streamed on our live stream.
 
-For direction to get to the school visit our [contact page.](http://www.ouachitahills.org/pages/contact)
+For directions to get to the school visit our [contact page.](http://www.ouachitahills.org/pages/contact)

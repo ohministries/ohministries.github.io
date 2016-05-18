@@ -14,7 +14,6 @@ diploma in my hands." - OHA Senior
 are some details about graduation weekend. 
 
 - Graduation Speaker: Pastor Baute
-
 - Friday,   May 27 at 7:00 PM - Vespers by Pastor Baute
 - Saturday, May 28 at 9:15 AM - Worship Service and Sabbath School
 - Saturday, May 28 at 3:30 PM - Musical Program

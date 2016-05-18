@@ -21,3 +21,6 @@ Graduation Speaker: Pastor Baute
 - Saturday, May 28 at 8:25 PM - Senior Recognition and Slide Show
 - Sunday,   May 29 at 10:00 AM - Graduation
 
+All events will be streamed on our live stream.
+
+For direction to get to the school visit our [contact page.](http://www.ouachitahills.org/pages/contact)

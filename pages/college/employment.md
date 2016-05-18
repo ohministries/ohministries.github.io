@@ -36,8 +36,8 @@ Come and join our team!
 [Religion Instructor](/uploads/documents/JSReligionInstructor.pdf)   
 Food Services Supervisor  
 [Auto Repair Technician](/uploads/documents/JSAutoRepair.pdf)  
-[Construction Manager](/uploads/documents/JSConstrMgr.pdf)
-Information Technology Specialist 
+[Construction Manager](/uploads/documents/JSConstrMgr.pdf)  
+Information Technology Specialist  
 
  If you are interested in any of the listed positions, you may complete our online [Employment Application](http://www.surveymoz.com/s/VFKEU/)
 

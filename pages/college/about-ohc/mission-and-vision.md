@@ -1,6 +1,7 @@
 ---
 title: Mission and Vision
 layout: page
+sort: 2
 ---
 
 #### Mission: Why do we exist?

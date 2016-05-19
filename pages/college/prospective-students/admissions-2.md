@@ -49,6 +49,11 @@ Ouachita Hills College
 P.O. Box 170  
 Amity, Arkansas 71921
 
+**Physical Exam Requirement**  
+All students are required to submit the results of a physical examination upon acceptance
+to Ouachita Hills College. You may submit documentation created and signed by your health practitioner,
+or you may download and print our [physical exam form](/uploads/documents/Physical-Exam-2.pdf) to be completed and signed by your health practitioner at your physical exam.
+
 **Paper Application Package**  
 To request a complete application package in the mail please contact our office at (870) 342-6210.
 

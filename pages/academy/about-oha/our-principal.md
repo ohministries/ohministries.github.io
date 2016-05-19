@@ -1,6 +1,7 @@
 ---
 title: Letter from Our Principal
 layout: page
+sort: 3
 ---
 **Welcome to Ouachita Hills Academy!**
 
@@ -16,13 +17,13 @@ for life on this earth but also to be diligently working for the Lord in soul sa
 He comes.
 
 The school is located on 381 acres in the rolling hills and pine forests of south
-central Arkansas. Many visitors comment about the park-like setting and the quietness and 
+central Arkansas. Many visitors comment about the park-like setting and the quietness and
 peacefulness of the campus.
 
 Our class offerings have been chosen with college readiness in mind but more
-importantly, with a desire to teach students spiritual, academic, and vocational skills and 
-lessons which inspiration tells us they should learn while in school.College admissions test 
-scores are generally above the state and national average and students are readily accepted 
+importantly, with a desire to teach students spiritual, academic, and vocational skills and
+lessons which inspiration tells us they should learn while in school.College admissions test
+scores are generally above the state and national average and students are readily accepted
 into public and private colleges and universities,many receiving scholarships.
 
 Our student body is culturally diverse, as are our instructors. Students, many of

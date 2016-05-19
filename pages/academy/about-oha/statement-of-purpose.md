@@ -1,6 +1,7 @@
 ---
 title: Our Objectives
 layout: page
+sort: 2
 ---
 **The objectives of Ouachita Hills Academy are to provide&#8230;**
 

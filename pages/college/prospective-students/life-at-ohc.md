@@ -15,11 +15,8 @@ together.
 
 **Serving Others**  
 Serving the individuals and communities around us is a natural extension of spiritual life.
-Every Sabbath, students go out in teams to serve at a church in a nearby community. On
-Sabbath afternoons, these teams may visit the elderly, study the Bible with individuals or
-families, or conduct surveys to find out about community needs. Each semester, students
-and staff take a break from classes to work together for one day to tackle specific
-challenges in local communities.
+OHC offers many ways to be personally involved in evangelism during the school year. Through the canvassing program, students find many people interested in understanding the Bible better. At times, students may follow up these interests by giving personal Bible studies. 
+Many students have the opportunity to work with neighboring churches by preaching, giving Bible studies, and working with the local youth. Students are active in local churches with both English- and Spanish-speaking congregations. Our church involvement includes pre-work for evangelism and church planting. 
 
 **Fresh Food**  
 We are committed to serving fresh, healthy meals designed to promote students&#8217;

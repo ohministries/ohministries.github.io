@@ -16,8 +16,16 @@ Win, win, win project:
 	Today we are in need of two minivans and 1 five-passengers vehicle that will be used to distribute literature with the message of Truth during the next 2-3 years.
 
   	We would like to raise $15,000 for this project or if you are willing to donate a minivan or a vehicle with low millage for this program, please give us a call.
-
+  	
   	Thank you for partnering with us in this project!
+  
+  Worthy Student Fund:	
+  	
+  	Many of our students here at Ouachita Hills College do not receive financial support from family members or friends.  Those students rely on the canvassing scholarship to fund their education however for many, this is not enough to cover the cost of their education.  It is for this reason that Ouachita Hills College has a Worthy Student Fund.  This funds give us an opportunity to help students that lack financial support and that fall short of funds to pay for their semester at school.   
+	
+	This project has already blessed dozens of our students.  We encourage to be part of this noble endeavor of educating college students for eternity.
+
+  	
 
 
 [Please visit the Ouachita Hills store to make a donation.](http://store.ouachitahills.org/products/donate)  

@@ -15,9 +15,9 @@ Win, win, win project:
 	
 	Today we are in need of two minivans and 1 five-passengers vehicle that will be used to distribute literature with the message of Truth during the next 2-3 years.
 
-  We would like to raise $15,000 for this project or if you are willing to donate a minivan or a vehicle with low millage for this program, please give us a call.
+  	We would like to raise $15,000 for this project or if you are willing to donate a minivan or a vehicle with low millage for this program, please give us a call.
 
-  Thank you for partnering with us in this project!
+  	Thank you for partnering with us in this project!
 
 
 [Please visit the Ouachita Hills store to make a donation.](http://store.ouachitahills.org/products/donate)  

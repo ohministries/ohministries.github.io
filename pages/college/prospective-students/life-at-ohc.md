@@ -5,7 +5,7 @@ sort: 1
 hero-position: 62%
 hero-image: /uploads/images/Enlight1-4.jpg
 ---
-##### At Ouachita Hills College, we know that true education means so much more than just having strong academic programs.
+##### At Ouachita Hills College, we know that education means so much more than just having strong academic programs.  As a Seventh-day Adventist institution of higher learning, we desire to to maintain high Christian standards of integrity, courtesy, dedication, and accomplishment. In order to achieve this ideal, the spiritual devotion as well as the lyfestyle and academic achievements are integral part of students' life at Ouachita Hills.
 
 **Spiritual Life**  
 Every student will find opportunities to cultivate the essential daily habits of a

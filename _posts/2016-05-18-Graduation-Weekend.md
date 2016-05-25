@@ -1,17 +1,17 @@
 ---
 title: Graduation Weekend
 layout: post
-categories: academy 
-thumbnail: /uploads/images/
-hero-image: /uploads/images/
-hero-position: 50%
+categories: academy
+thumbnail: /uploads/images/OHASeniors-2016.jpg
+hero-image: /uploads/images/OHASeniors-2016.jpg
+hero-position: 34%
 ---
 "Graduation is a milestone that I have been working to reach for four years. Looking back, I know I've made many mistakes
-but have learned to trust God in any situation. I'm graduating with a sense of determination and I can't wait to get my 
+but have learned to trust God in any situation. I'm graduating with a sense of determination and I can't wait to get my
 diploma in my hands." - OHA Senior
 
-"To walk by faith and not by sight" is the aim of the 2016 Senior Class of Ouachita Hills Academy. Graduation is coming up so here 
-are some details about graduation weekend. 
+"To walk by faith and not by sight" is the aim of the 2016 Senior Class of Ouachita Hills Academy. Graduation is coming up so here
+are some details about graduation weekend.
 
 Graduation Speaker: Pastor Baute
 

@@ -1,5 +1,6 @@
 ---
 title: Academics
-layout: page
+layout: default
 sort: 2
+/pages/college/academics/degrees-offered.html
 ---

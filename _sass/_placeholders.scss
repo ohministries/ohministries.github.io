@@ -94,7 +94,7 @@
     background-color:$grey-color-light;
   }
 
-  .is-active &, &:focus, &[aria-selected="true"] {
+  .active-page>&, &:focus, &[aria-selected="true"] {
     color:$grey-color-light;
     @extend %section-background-color;
   }

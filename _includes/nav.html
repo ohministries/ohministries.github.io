@@ -6,6 +6,7 @@ Parameters:
 - disable_top_level_links (bool, optional)
 - redirect_max_depth (bool, optional)
 - include_global_pages (bool, optional)
+- only_return_items (bool, optional)
 
 redirect_max_depth = (bool) if true, redirect last level of links to first child of each page, if children exist.
 {% endcomment %}
@@ -38,7 +39,7 @@ redirect_max_depth = (bool) if true, redirect last level of links to first child
     and filename contains 'html'
     and node.exclude-from-nav != true %}
       {% capture subnav %}
-        {% if include.max_depth > current_lvl_url_length | plus: 1 %}
+        {% if include.max_depth > current_lvl_url_length | plus: 1 or include.max_depth == nil %}
           {% assign lvl_base_url = node.url | replace: '.html' | append: '/' %}
 
           {% comment %} Include can access parent state; hence no variables passed explicitly: {% endcomment %}
@@ -103,5 +104,9 @@ redirect_max_depth = (bool) if true, redirect last level of links to first child
 {% assign links = links | strip %}
 {% assign global_links = global_links | strip %}
 {% if links.size > 0 %}
-<ul>{{ links }}{{ global_links }}</ul>
+  {% if include.only_return_items and start_lvl == current_lvl_url_length %}
+    {{ links }}{{ global_links }}
+  {% else %}
+    <ul>{{ links }}{{ global_links }}</ul>
+  {% endif %}
 {% endif %}

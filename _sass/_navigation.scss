@@ -128,7 +128,13 @@
  */
 
 .page-nav {
-  margin: 0;
+  & > ul {
+    margin: 0;
+  }
+
+  ul {
+    margin-left:2.5vw;
+  }
 
   li {
     list-style-type: none;

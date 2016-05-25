@@ -2,35 +2,38 @@
 
   {% assign current_page_url_length = page.url | split: '/' | size %}
 
-  {% if current_page_url_length == 5 %}
+  {% if current_page_url_length > 3 %}
 
-    {% assign rm = page.url | split: '/' | last | prepend: '/' %}
-    {% assign parent_needle = page.url | replace: rm | append: '.html' %}
-    {% assign sibling_needle = page.url | replace: rm | append: '/' %}
+    {% assign url_pieces = page.url | split: '/' %}
 
-    {% capture siblings_nav_items %}
-      {% assign candidates = site.pages | sort: "sort" %}
-      {% for candidate in candidates %}
-        {% if candidate.url contains parent_needle %}
-          {% assign parent=candidate %}
-        {% endif %}
-        {% assign candidate_url_length = candidate.url | split: '/' | size %}
-        {% if candidate.url contains sibling_needle and candidate_url_length == current_page_url_length %}
-          {% assign extra_atts = '' %}
-          {% if candidate.url == page.url %}
-            {% assign extra_atts = ' class="is-active"' %}
-          {% endif %}
-          <li{{ extra_atts }}><a href="{{ candidate.url }}">{{ candidate.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    {% endcapture %}
+    {% assign to_pop = current_page_url_length | minus: 4 %}
+    {% assign remaining_pieces = url_pieces | pop: to_pop %}
+    {% assign page_base_identifier = remaining_pieces | join: '/' | split: '.' | first %}
+    {% assign page_base_url = page_base_identifier | append: '.html' %}
+    {% assign page_base_path = page_base_identifier | append: '/' %}
+
+    {% assign is_section_home = false %}
+    {% if page.url == page_base_url %}
+      {% assign is_section_home = true %}
+    {% endif %}
+
+    {% for candidate in site.pages %}
+      {% if candidate.url contains page_base_url %}
+        {% assign parent=candidate %}
+      {% endif %}
+    {% endfor %}
 
     <h1>{{ parent.title }}</h1>
 
-    {% assign siblings_nav_items = siblings_nav_items | strip %}
-    {% if siblings_nav_items.size > 0 %}
-      <ul class="page-nav">{{ siblings_nav_items }}</ul>
-    {% endif %}
+    <div class="page-nav">
+      {% assign classes = '' %}
+      {% if is_section_home %}
+        {% assign classes = " class='active-page'" %}
+      {% endif %}
+
+      <li{{classes}}><a href="{{page_base_url}}">About</a></li>
+      {% include nav.html base_url=page_base_path max_depth=4 only_return_items=true %}
+    </div>
 
   {% else %}
 

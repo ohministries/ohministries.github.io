@@ -1,5 +1,7 @@
 ---
 title: About OHA
-layout: page
-sort: 1
+layout: default
+permalink: /pages/academy/about-oha/
+redirect: /pages/academy/about-oha/our-history.html
 ---
+

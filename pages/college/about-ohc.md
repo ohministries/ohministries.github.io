@@ -1,5 +1,6 @@
 ---
 title: About OHC
-layout: page
+layout: default
 sort: 1
+Redirect: /pages/college/prospective-students/life-at-ohc.html
 ---

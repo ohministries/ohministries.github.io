@@ -2,8 +2,8 @@
 title: Graduation Weekend
 layout: post
 categories: academy
-thumbnail: /uploads/images/OHASeniors-2016.jpg
-hero-image: /uploads/images/OHASeniors-2016.jpg
+thumbnail: /uploads/images/OHASeniors-2016.JPG
+hero-image: /uploads/images/OHASeniors-2016.JPG
 hero-position: 34%
 ---
 "Graduation is a milestone that I have been working to reach for four years. Looking back, I know I've made many mistakes

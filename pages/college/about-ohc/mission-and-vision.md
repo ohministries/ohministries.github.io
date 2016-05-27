@@ -2,6 +2,8 @@
 title: Mission and Vision
 layout: page
 sort: 2
+hero-image: /uploads/images/DSC_0025.jpg
+hero position: 60%
 ---
 
 #### Mission: Why do we exist?

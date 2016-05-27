@@ -8,7 +8,10 @@ images:
  - /uploads/images/f181939504.jpg
  - /uploads/images/IMG_1266-768x768.jpg
  - /uploads/images/f915454768.jpg
- - 
+ - /uploads/images/DSC_0035%20(1).jpeg
+ - /uploads/images/DSC06312%20copy.jpg
+ - /uploads/images/DSC_0011.jpg
+ - /uploads/images/pics_34.jpg
 ---
 ##### At Ouachita Hills College, we know that education means so much more than just having strong academic programs.  As a Seventh-day Adventist institution of higher learning, we desire to to maintain high Christian standards of integrity, courtesy, dedication, and accomplishment. In order to achieve this ideal, spiritual devotion as well as academic and lifestyle achievements are integral parts of student life at Ouachita Hills.
 

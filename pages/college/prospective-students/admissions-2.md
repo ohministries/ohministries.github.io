@@ -2,6 +2,8 @@
 title: Admissions
 layout: page
 sort: 2
+hero-image: /uploads/images/IMG_3819.JPG
+hero position: 40%
 ---
 
 **General Admission Requirements**  

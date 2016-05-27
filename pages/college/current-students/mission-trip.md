@@ -1,6 +1,8 @@
 ---
 title: Mission Trip
 layout: page
+hero-image: /uploads/images/IMG_9925.jpg
+hero position: 50%
 ---
 #### Fall Mission Trip
 

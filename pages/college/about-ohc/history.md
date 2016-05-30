@@ -2,6 +2,8 @@
 title: History
 layout: page
 sort: 1
+hero-image: /uploads/images/f96811888.jpg
+hero position: 50%
 ---
 **Our History**  
 The roots of Ouachita Hills College stretch back about 30 years and find themselves

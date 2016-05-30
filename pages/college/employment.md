@@ -38,7 +38,7 @@ Food Services Supervisor
 [Auto Repair Technician](/uploads/documents/JSAutoRepair.pdf)  
 Information Technology Specialist  
 
- If you are interested in any of the listed positions, you may complete our online [Employment Application](http://www.surveymoz.com/s/VFKEU/)
+ If you are interested in any of the listed positions, you may complete our online [Employment Application](http://www.surveymoz.com/s/VFKEU/) or [Download Application](/uploads/documents/OHCStaffApp060518.pdf)
 
  For more information, call (870-342-6210) or email us (info@ohc.org).
 

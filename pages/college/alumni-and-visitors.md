@@ -1,5 +1,6 @@
 ---
 title: Alumni and Visitors
-layout: page
+layout: default
 sort: 5
+Redirect: /pages/college/alumni-and-visitors/request-transcripts.html
 ---

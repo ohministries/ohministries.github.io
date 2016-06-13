@@ -18,7 +18,7 @@ Bachelor of Theology
 Bachelor of Christian Business Management  
 
 Associate of Christian General Studies  
-Associate of Personal Evangelism\*\*  
+Associate of Personal Evangelism\  
 Associate of Christian Business Management
 
 In addition, we are able to offer the first two years of pre-professional study, suitable

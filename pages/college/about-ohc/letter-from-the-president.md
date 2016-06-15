@@ -32,4 +32,4 @@ Sincerely,
 **Magda Rodriguez**
 President, Ouachita Hills College
 
-![Mrs. Rodriguez with her husband Dwight](/uploads/images/DSC_0591.JPG)
+![Mrs. Rodriguez with her husband Dwight](/uploads/images/DSC_0591b.JPG)

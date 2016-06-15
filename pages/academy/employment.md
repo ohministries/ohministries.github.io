@@ -12,11 +12,8 @@ communities. Thrive in an environment where true education isn't just talked abo
 
 **Ouachita Hills Academy has the following positions available for 2016-2017 school year:**
 
-English Teacher  
 Strings/Orchestra Conductor  
-Choir Director  
 Auto Repair Technician  
-Construction Manager  
 Girls' Dean  
 Food Services Supervisor  
 IT Supervisor  

@@ -12,12 +12,10 @@ communities. Thrive in an environment where true education isn't just talked abo
 
 **Ouachita Hills Academy has the following positions available for 2016-2017 school year:**
 
-Strings/Orchestra Conductor  
-Auto Repair Technician  
-Girls' Dean  
-Food Services Supervisor  
-IT Supervisor  
-
+**Auto Repair Technician**  
+**Girls' Dean**  
+**Food Services Supervisor**  
+ 
 For more information, call (870) 342-6210 or email info@ouachitahillsacademy.org.
 
 If you are interested in applying for any of the openings, you may complete and submit our 

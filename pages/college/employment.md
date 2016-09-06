@@ -32,11 +32,11 @@ Come and join our team!
 
 **Ouachita Hills College has the following positions open for the 2016-2017 school year:**  
 
-[English Instructor](/uploads/documents/JSEnglishInstructor.pdf)  
 [Religion Instructor](/uploads/documents/JSReligionInstructor.pdf)   
-Food Services Supervisor  
+**Farm Manager**  
+**Food Services Supervisor**    
 [Auto Repair Technician](/uploads/documents/JSAutoRepair.pdf)  
-Information Technology Specialist  
+**Information Technology Specialist**  
 
  If you are interested in any of the listed positions, you may download and complete our application. [Download Application](/uploads/documents/OHCStaffApp060518.pdf)
 

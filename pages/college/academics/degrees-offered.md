@@ -9,6 +9,8 @@ At Ouachita Hills College, our goal is for students to be immersed in the Word o
 preparing for their life work. Each of our degrees is built on a core curriculum that
 strengthens essential academic skills and encourages deep study of Scripture.
 
+*For a complete description of our degrees and courses offered, you may download our full [course catalog](http://www.ouachitahills.org/uploads/documents/Handbook2015-17.pdf).*
+
 **The following degrees may be earned through Ouachita Hills College:**\*
 
 Bachelor of Elementary Christian Education\*\*  

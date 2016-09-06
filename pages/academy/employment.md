@@ -12,10 +12,10 @@ communities. Thrive in an environment where true education isn't just talked abo
 
 **Ouachita Hills Academy has the following positions available for 2016-2017 school year:**
 
-**Farm Manager**
+**Farm Manager**  
 **Girls' Dean**  
-**Food Services Supervisor**
-**Auto Repair Technician**
+**Food Services Supervisor**  
+**Auto Repair Technician**  
  
 For more information, call (870) 342-6210 or email info@ouachitahillsacademy.org.
 

@@ -24,7 +24,7 @@ Associate of Christian Business Management
 In addition, we are able to offer the first two years of pre-professional study, suitable
 for transfer to pre-med or allied health programs.
 
-For more information on our degrees and courses offered, download our full [course catalog](http://uploads/documents/Handbook2015-17.pdf). 
+For more information on our degrees and courses offered, download our full [course catalog](http://www.ouachitahills.org/uploads/documents/Handbook2015-17.pdf). 
 
 \* *Ouachita Hills College has received a Letter of Exemption from Certification issued by
 the Arkansas Department of Higher Education to offer non-academic or church-related courses

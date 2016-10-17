@@ -2,5 +2,5 @@
 title: College Redirect
 layout: default
 permalink: /college/
-redirect: /pages/college.html
+redirect: http://www.ohc.org
 ---

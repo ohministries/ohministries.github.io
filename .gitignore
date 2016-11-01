@@ -3,3 +3,6 @@ _site
 .jekyll-metadata
 .DS_Store
 .idea/**/*
+.bundle
+vendor/*
+Gemfile.lock

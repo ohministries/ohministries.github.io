@@ -23,7 +23,7 @@ We would like to raise $15,000 for this project or if you are willing to donate 
 Thank you for partnering with us in this project!
 
 #### College Worthy Student Fund  
-Many of our students here at Ouachita Hills College do not receive financial support from family members or friends.  Those students rely on the canvassing scholarship to fund their education. However, for many this is not enough to cover the cost of their education.  It is for this reason that Ouachita Hills College has a Worthy Student Fund.  This funds give us an opportunity to help students that lack financial support and that fall short of funds to pay for their semester at school.   
+Many of our students here at Ouachita Hills College do not receive financial support from family members or friends.  Those students rely on the canvassing scholarship to fund their education. However, for many this is not enough to cover the cost of their education.  It is for this reason that Ouachita Hills College has a Worthy Student Fund.  These funds give us an opportunity to help students that lack financial support and that fall short of funds to pay for their semester at school.
 
 This project has already blessed dozens of our students.  We encourage you to be part of this noble endeavor of educating college students for eternity.
 
